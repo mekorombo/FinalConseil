@@ -1,7 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\testme\\Desktop\\ConseilDash\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\finalconseil\\dashboardconseil\\views\\shared\\_navlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_navlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\finalconseil\\dashboardconseil\\views\\shared\\_navlayout - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_navlayout - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\finalconseil\\dashboardconseil\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\finalconseil\\dashboardconseil\\views\\shared\\_footerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_footerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\finalconseil\\dashboardconseil\\views\\shared\\_layoutsite.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_layoutsite.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\finalconseil\\dashboardconseil\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACcCAAAAAAAAAAAYwGUCAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T08:02:41.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_NavLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_NavLayout.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_NavLayout.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_NavLayout.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_NavLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:59:03.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_NavLayout - Copy.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_NavLayout - Copy.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_NavLayout - Copy.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_NavLayout - Copy.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_NavLayout - Copy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:59:02.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutSite.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_LayoutSite.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_LayoutSite.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_LayoutSite.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_LayoutSite.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:58:57.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_FooterLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_FooterLayout.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_FooterLayout.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Shared\\_FooterLayout.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_FooterLayout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:57:41.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:56:31.121Z",
+              "EditorCaption": ""
             }
           ]
         }
