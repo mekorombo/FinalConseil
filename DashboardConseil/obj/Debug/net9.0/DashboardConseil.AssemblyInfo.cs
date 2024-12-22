@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashboardConseil")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db1fc7b49776b42a30dd214bdfd8c26fbe0efde5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b113d3af4bf269b3560b8a69626e58c9e9c5a94")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashboardConseil")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashboardConseil")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

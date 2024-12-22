@@ -1,4 +1,5 @@
-﻿@{
+﻿@model DashboardConseil.Models.Contact
+@{
 	Layout = "~/Views/Shared/_LayoutSite.cshtml";
 }
 @await Html.PartialAsync("~/Views/Shared/_NavLayout - Copy.cshtml")
@@ -6,10 +7,10 @@
 
 <section class="page-title" style="background-image: url(images/Website/3.jpg)">
 	<div class="auto-container">
-		<h1>Contact Us</h1>
+		<h1>Contactez Nous</h1>
 		<ul class="page-breadcrumb">
-			<li><a href="/">home</a></li>
-			<li>Contact Us</li>
+			<li><a href="/">Accueil</a></li>
+			<li>Contactez Nous</li>
 		</ul>
 	</div>
 </section>
@@ -26,10 +27,11 @@
 					<div class="icon-box">
 						<span class="icon flaticon-phone-call"></span>
 					</div>
-					<h6>Talk to Us</h6>
+					<h6>Parlez-nous</h6>
 					<ul>
-						<li><span>Phone : </span><a href="tel:+00-123-456-789">+00 123 456 789</a></li>
-						<li><span>Telephone : </span><a href="tel+1-800-100-900">+1 800 100 900</a></li>
+@* 						<li><span>Phone : </span><a href="tel:+00-123-456-789">+00 123 456 789</a></li>
+ *@						<li><span>Telephone :<br />
+						</span><a href="tel+1-800-100-900">+1 800 100 900</a></li>
 					</ul>
 				</div>
 			</div>
@@ -41,11 +43,15 @@
 					<div class="icon-box">
 						<span class="icon flaticon-big-envelope"></span>
 					</div>
-					<h6>Contact Us</h6>
+					<h6>Contactez-nous</h6>
 					<ul>
-						<li><span>Email : </span><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><span>Email : </span><a href="mailto:office@example.com">office@example.com</a></li>
-					</ul>
+						<li>
+							<span>Email : </span><a href="mailto:info@example.com">
+								contact@capitalconseiltechnologie.fr
+							</a>
+						</li>
+@* 						<li><span>Email : </span><a href="mailto:office@example.com">office@example.com</a></li>
+ *@					</ul>
 				</div>
 			</div>
 
@@ -56,10 +62,10 @@
 					<div class="icon-box">
 						<span class="icon flaticon-map"></span>
 					</div>
-					<h6>Location</h6>
+					<h6>Localisation</h6>
 					<ul>
-						<li>1403 Blackwell Street, AK 9976</li>
-						<li>London WC1B 4EA</li>
+						<li>60 rue françois 1er 75008 </li>
+						<li>Paris</li>
 					</ul>
 				</div>
 			</div>
@@ -71,10 +77,10 @@
 					<div class="icon-box">
 						<span class="icon flaticon-wall-clock"></span>
 					</div>
-					<h6>Opening Hours</h6>
+					<h6>Horaires d'ouverture</h6>
 					<ul>
-						<li>Mon - Sat 09:00am To 05:00pm</li>
-						<li>Sunday: Off</li>
+						<li>Lun - Sam 09:00am à 05:00pm</li>
+						<li>Dimanche : Fermé</li>
 					</ul>
 				</div>
 			</div>
@@ -90,11 +96,12 @@
 					<div class="inner-column">
 						<!-- Sec Title -->
 						<div class="sec-title">
-							<div class="title">Get In Touch</div>
-							<h2>Get In <span>Touch</span></h2>
+							<div class="title">Contactez Nous</div>
+							<h2>Prenez <span>Contact</span></h2>
 						</div>
 					</div>
-					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt consequat dolor vitae pulvinar. Aliquam vitae nisi vitae metus imperdiet maximus. Praesent et egestas risus. Duis vitae finibus augue. . </div>
+					<div class="text">Vous pouvez simplement remplir le formulaire ci-dessous et cliquer sur « envoyer » pour soumettre une demande. </div><br /><br />
+
 					<!-- Social Box -->
 					<ul class="social-box">
 						<li class="facebook"><a target="_blank" href="http://facebook.com/" class="fa fa-facebook-f"></a></li>
@@ -111,41 +118,56 @@
 						<!-- Contact Form -->
 						<div class="contact-page-form">
 							<!-- Contact Form -->
-							<form method="post" action="#" id="contact-form">
+							<form asp-action="Create" asp-controller="Contacts" method="post" id="contact-form">
 								<div class="row clearfix">
-
+									<!-- Nom -->
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<label for="Nom" class="sr-only">Nom</label>
 										<span class="icon flaticon-user-2"></span>
-										<input type="text" name="username" placeholder="Name" required>
+										<input asp-for="Nom" id="Nom" class="form-control" placeholder="Name" required aria-label="Name" />
+										<span asp-validation-for="Nom" class="text-danger"></span>
 									</div>
 
+									<!-- Téléphone -->
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<label for="Phone" class="sr-only">Téléphone</label>
 										<span class="icon flaticon-phone-call"></span>
-										<input type="text" name="phone" placeholder="Phone" required>
+										<input asp-for="Phone" id="Phone" class="form-control" placeholder="Phone" required aria-label="Phone" />
+										<span asp-validation-for="Phone" class="text-danger"></span>
 									</div>
 
+									<!-- Email -->
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<label for="Email" class="sr-only">Email</label>
 										<span class="icon flaticon-big-envelope"></span>
-										<input type="email" name="email" placeholder="Email" required>
+										<input asp-for="Email" id="Email" class="form-control" placeholder="Email" required aria-label="Email" />
+										<span asp-validation-for="Email" class="text-danger"></span>
 									</div>
 
+									<!-- Sujet -->
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<label for="Subject" class="sr-only">Sujet</label>
 										<span class="icon flaticon-user-2"></span>
-										<input type="text" name="subject" placeholder="Subject" required>
+										<input asp-for="Subject" id="Subject" class="form-control" placeholder="Subject" required aria-label="Subject" />
+										<span asp-validation-for="Subject" class="text-danger"></span>
 									</div>
 
+									<!-- Message -->
 									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<label for="Message" class="sr-only">Message</label>
 										<span class="icon flaticon-user-2"></span>
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea asp-for="Message" id="Message" class="form-control" placeholder="Message" aria-label="Message"></textarea>
+										<span asp-validation-for="Message" class="text-danger"></span>
 									</div>
 
-									<div class="form-group col-lg-12 col-md-12 col-sm-12">
-										<button class="theme-btn submit-btn" type="submit" name="submit-form">Submit Now <span class="arrow flaticon-right-arrow-1"></span></button>
+									<!-- Bouton de soumission -->
+									<div class="form-group col-lg-12 col-md-12 col-sm-12 text-center">
+										<button class="theme-btn submit-btn" type="submit">
+											Submit Now <span class="arrow flaticon-right-arrow-1"></span>
+										</button>
 									</div>
-
 								</div>
-							</form>
-							<!-- Contact Form -->
+							</form>							<!-- Contact Form -->
 						</div>
 
 					</div>

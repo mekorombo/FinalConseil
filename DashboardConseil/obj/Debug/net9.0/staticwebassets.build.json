@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3Fzf1NFhUVdoOePyJewOAqp2tunb88a6e+QdkODuN/A=",
+  "Hash": "IyZ4WxigljWBqDzcNUwIiGF/WqMvUJQinnT0TW8dyfQ=",
   "Source": "DashboardConseil",
   "BasePath": "_content/DashboardConseil",
   "Mode": "Default",
@@ -13352,6 +13352,27 @@
       "OriginalItemSpec": "wwwroot\\fonts\\revicons90c6.woff"
     },
     {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\111111111111.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/111111111111#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j62vthpn6q",
+      "Integrity": "y43w52ZJHch4+h/rmKr9Y6tctSmer1hC9Y062786uE0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\111111111111.png"
+    },
+    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\background\\1.jpg",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -13688,6 +13709,48 @@
       "OriginalItemSpec": "wwwroot\\images\\background\\pattern-9.png"
     },
     {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\bo.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/bo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pz8qz5j23d",
+      "Integrity": "BZeKD3DlZW0LBEsJrUJ+a8HhOznthrdnLzKG6CoPqf4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bo.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\BPCE.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/BPCE#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "si2ranniri",
+      "Integrity": "hDv2FLI7NSl3mbRBXDA3nVnHuw26TGiFOuiR83Vyw38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\BPCE.png"
+    },
+    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\clients\\1.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -13940,27 +14003,6 @@
       "OriginalItemSpec": "wwwroot\\images\\clients\\a2d2e11b-f963-464f-9aea-96ca2c493df7_product-item13.jpg"
     },
     {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\cropped-Logos-NIE.png",
-      "SourceId": "DashboardConseil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
-      "BasePath": "_content/DashboardConseil",
-      "RelativePath": "images/cropped-Logos-NIE#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cisb61c5jg",
-      "Integrity": "FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cropped-Logos-NIE.png"
-    },
-    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\fancybox\\blank.gif",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -14127,6 +14169,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\footer-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\GrandVision2.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/GrandVision2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w0vvtszgt8",
+      "Integrity": "0AsoUA51wldeqBDXLvLui4HNis2idhRaTk1ze4cx8pw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GrandVision2.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\HomeFatat.png",
@@ -14381,12 +14444,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\waves-shape.png"
     },
     {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\labo-partenaire-servier-logo.png",
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\laposte.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
       "BasePath": "_content/DashboardConseil",
-      "RelativePath": "images/labo-partenaire-servier-logo#[.{fingerprint}]?.png",
+      "RelativePath": "images/laposte#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -14395,11 +14458,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l6eru4toqj",
-      "Integrity": "jb4P6qdI7Kh8a9a2H/vMwRdCDqdjqtkuhVCd0IuUhKM=",
+      "Fingerprint": "yj5zyz9s2i",
+      "Integrity": "IptaBVnLGT7b/+qbM0UuwalGxF2ZXoS6rMgoOpbMTDY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\labo-partenaire-servier-logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\laposte.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\logo.png",
@@ -14570,6 +14633,27 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-small-3.png"
     },
     {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\L'Oreal.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/L'Oreal#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v9vj1nqtod",
+      "Integrity": "7Z3SxvJ8YZPKcBTJrfStXTrKCNJ2I0iO+9FW6Cnmy0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\L'Oreal.png"
+    },
+    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\main-slider\\circle-pattern.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -14715,6 +14799,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\main-slider\\image-5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Natixis.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/Natixis#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cisb61c5jg",
+      "Integrity": "FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Natixis.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\2.jpg",
@@ -18371,12 +18476,12 @@
       "OriginalItemSpec": "wwwroot\\images\\resource\\video-img-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (1).png",
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\SERVIER.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
       "BasePath": "_content/DashboardConseil",
-      "RelativePath": "images/téléchargement (1)#[.{fingerprint}]?.png",
+      "RelativePath": "images/SERVIER#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18385,74 +18490,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wbq1pbsr6c",
-      "Integrity": "jIDzSkB+yjo15rHdPRoSTKy0eO4fFf6JZXWYd0Si8P0=",
+      "Fingerprint": "xsohwfq3qt",
+      "Integrity": "L0wvoB1A+zyn1LZrOSO7j9aWaWLDm8qnX1PKX4xmmb4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\téléchargement (1).png"
-    },
-    {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (2).png",
-      "SourceId": "DashboardConseil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
-      "BasePath": "_content/DashboardConseil",
-      "RelativePath": "images/téléchargement (2)#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "71gvwvzk61",
-      "Integrity": "6466kXnlroNm1NSi8IojLznSmmkKg/h28q8JuAQEg94=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\téléchargement (2).png"
-    },
-    {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (3).png",
-      "SourceId": "DashboardConseil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
-      "BasePath": "_content/DashboardConseil",
-      "RelativePath": "images/téléchargement (3)#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2c4szsks7e",
-      "Integrity": "DsiVmb37V7DNqB4OQL3FXhkmuPaXNEfV4CWV9gW2rNU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\téléchargement (3).png"
-    },
-    {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement.png",
-      "SourceId": "DashboardConseil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
-      "BasePath": "_content/DashboardConseil",
-      "RelativePath": "images/téléchargement#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dsek5pje4q",
-      "Integrity": "I59VdzJrtzOKTvYtbiy2I/uoyfZEE3i4PEEajJoIxEk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\téléchargement.png"
+      "OriginalItemSpec": "wwwroot\\images\\SERVIER.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\2.jpg",
@@ -18805,11 +18847,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "znqidbhz8k",
+      "Integrity": "gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Website\\LogoCNav_165x60.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60555555.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/Website/LogoCNav_165x60555555#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "Fingerprint": "pqktimgdl4",
       "Integrity": "v0dEG6IKAdvENJSzZvIOPVBYQRwTlspEkJx3sFHgCPo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Website\\LogoCNav_165x60.png"
+      "OriginalItemSpec": "wwwroot\\images\\Website\\LogoCNav_165x60555555.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\news-1.jpg",
@@ -73502,6 +73565,88 @@
       ]
     },
     {
+      "Route": "images/111111111111.j62vthpn6q.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\111111111111.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y43w52ZJHch4+h/rmKr9Y6tctSmer1hC9Y062786uE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j62vthpn6q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/111111111111.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y43w52ZJHch4+h/rmKr9Y6tctSmer1hC9Y062786uE0="
+        }
+      ]
+    },
+    {
+      "Route": "images/111111111111.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\111111111111.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y43w52ZJHch4+h/rmKr9Y6tctSmer1hC9Y062786uE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y43w52ZJHch4+h/rmKr9Y6tctSmer1hC9Y062786uE0="
+        }
+      ]
+    },
+    {
       "Route": "images/background/1.jpg",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\background\\1.jpg",
       "Selectors": [],
@@ -74814,6 +74959,170 @@
       ]
     },
     {
+      "Route": "images/bo.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\bo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BZeKD3DlZW0LBEsJrUJ+a8HhOznthrdnLzKG6CoPqf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:41:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BZeKD3DlZW0LBEsJrUJ+a8HhOznthrdnLzKG6CoPqf4="
+        }
+      ]
+    },
+    {
+      "Route": "images/bo.pz8qz5j23d.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\bo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BZeKD3DlZW0LBEsJrUJ+a8HhOznthrdnLzKG6CoPqf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:41:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pz8qz5j23d"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BZeKD3DlZW0LBEsJrUJ+a8HhOznthrdnLzKG6CoPqf4="
+        }
+      ]
+    },
+    {
+      "Route": "images/BPCE.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\BPCE.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hDv2FLI7NSl3mbRBXDA3nVnHuw26TGiFOuiR83Vyw38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 08:49:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hDv2FLI7NSl3mbRBXDA3nVnHuw26TGiFOuiR83Vyw38="
+        }
+      ]
+    },
+    {
+      "Route": "images/BPCE.si2ranniri.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\BPCE.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hDv2FLI7NSl3mbRBXDA3nVnHuw26TGiFOuiR83Vyw38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 08:49:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "si2ranniri"
+        },
+        {
+          "Name": "label",
+          "Value": "images/BPCE.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hDv2FLI7NSl3mbRBXDA3nVnHuw26TGiFOuiR83Vyw38="
+        }
+      ]
+    },
+    {
       "Route": "images/clients/1.png",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\clients\\1.png",
       "Selectors": [],
@@ -75798,88 +76107,6 @@
       ]
     },
     {
-      "Route": "images/cropped-Logos-NIE.cisb61c5jg.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\cropped-Logos-NIE.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8498"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:44:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cisb61c5jg"
-        },
-        {
-          "Name": "label",
-          "Value": "images/cropped-Logos-NIE.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI="
-        }
-      ]
-    },
-    {
-      "Route": "images/cropped-Logos-NIE.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\cropped-Logos-NIE.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8498"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:44:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI="
-        }
-      ]
-    },
-    {
       "Route": "images/fancybox/blank.1opvttal6p.gif",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\fancybox\\blank.gif",
       "Selectors": [],
@@ -76532,6 +76759,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-irok7+Ze7FLpQoH+86MG9rckqh6+GR6m3Y2puXIgE4s="
+        }
+      ]
+    },
+    {
+      "Route": "images/GrandVision2.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\GrandVision2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AsoUA51wldeqBDXLvLui4HNis2idhRaTk1ze4cx8pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 08:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AsoUA51wldeqBDXLvLui4HNis2idhRaTk1ze4cx8pw="
+        }
+      ]
+    },
+    {
+      "Route": "images/GrandVision2.w0vvtszgt8.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\GrandVision2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AsoUA51wldeqBDXLvLui4HNis2idhRaTk1ze4cx8pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 08:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w0vvtszgt8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/GrandVision2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AsoUA51wldeqBDXLvLui4HNis2idhRaTk1ze4cx8pw="
         }
       ]
     },
@@ -77736,8 +78045,8 @@
       ]
     },
     {
-      "Route": "images/labo-partenaire-servier-logo.l6eru4toqj.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\labo-partenaire-servier-logo.png",
+      "Route": "images/laposte.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\laposte.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -77746,7 +78055,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20225"
+          "Value": "2098"
         },
         {
           "Name": "Content-Type",
@@ -77754,56 +78063,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jb4P6qdI7Kh8a9a2H/vMwRdCDqdjqtkuhVCd0IuUhKM=\""
+          "Value": "\"IptaBVnLGT7b/+qbM0UuwalGxF2ZXoS6rMgoOpbMTDY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:48:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l6eru4toqj"
-        },
-        {
-          "Name": "label",
-          "Value": "images/labo-partenaire-servier-logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jb4P6qdI7Kh8a9a2H/vMwRdCDqdjqtkuhVCd0IuUhKM="
-        }
-      ]
-    },
-    {
-      "Route": "images/labo-partenaire-servier-logo.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\labo-partenaire-servier-logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20225"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jb4P6qdI7Kh8a9a2H/vMwRdCDqdjqtkuhVCd0IuUhKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:48:23 GMT"
+          "Value": "Thu, 19 Dec 2024 08:46:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -77813,7 +78077,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jb4P6qdI7Kh8a9a2H/vMwRdCDqdjqtkuhVCd0IuUhKM="
+          "Value": "sha256-IptaBVnLGT7b/+qbM0UuwalGxF2ZXoS6rMgoOpbMTDY="
+        }
+      ]
+    },
+    {
+      "Route": "images/laposte.yj5zyz9s2i.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\laposte.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IptaBVnLGT7b/+qbM0UuwalGxF2ZXoS6rMgoOpbMTDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 08:46:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yj5zyz9s2i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/laposte.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IptaBVnLGT7b/+qbM0UuwalGxF2ZXoS6rMgoOpbMTDY="
         }
       ]
     },
@@ -78474,6 +78783,88 @@
       ]
     },
     {
+      "Route": "images/L'Oreal.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\L'Oreal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Z3SxvJ8YZPKcBTJrfStXTrKCNJ2I0iO+9FW6Cnmy0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 08:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Z3SxvJ8YZPKcBTJrfStXTrKCNJ2I0iO+9FW6Cnmy0k="
+        }
+      ]
+    },
+    {
+      "Route": "images/L'Oreal.v9vj1nqtod.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\L'Oreal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Z3SxvJ8YZPKcBTJrfStXTrKCNJ2I0iO+9FW6Cnmy0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 08:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v9vj1nqtod"
+        },
+        {
+          "Name": "label",
+          "Value": "images/L'Oreal.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Z3SxvJ8YZPKcBTJrfStXTrKCNJ2I0iO+9FW6Cnmy0k="
+        }
+      ]
+    },
+    {
       "Route": "images/main-slider/circle-pattern.21ud42tp7m.png",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\main-slider\\circle-pattern.png",
       "Selectors": [],
@@ -79044,6 +79435,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ndns01QF2FCCPZ07w955fXAp+hh9ERsZQKzXMp2IDu4="
+        }
+      ]
+    },
+    {
+      "Route": "images/Natixis.cisb61c5jg.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Natixis.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cisb61c5jg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Natixis.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/Natixis.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Natixis.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FM+rrUq0YzYbTEYeXh2/87/1J17h5IUCones18rrBXI="
         }
       ]
     },
@@ -93316,8 +93789,8 @@
       ]
     },
     {
-      "Route": "images/téléchargement (1).png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (1).png",
+      "Route": "images/SERVIER.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\SERVIER.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -93326,7 +93799,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3806"
+          "Value": "1413"
         },
         {
           "Name": "Content-Type",
@@ -93334,11 +93807,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIDzSkB+yjo15rHdPRoSTKy0eO4fFf6JZXWYd0Si8P0=\""
+          "Value": "\"L0wvoB1A+zyn1LZrOSO7j9aWaWLDm8qnX1PKX4xmmb4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:48:50 GMT"
+          "Value": "Thu, 19 Dec 2024 08:30:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -93348,13 +93821,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIDzSkB+yjo15rHdPRoSTKy0eO4fFf6JZXWYd0Si8P0="
+          "Value": "sha256-L0wvoB1A+zyn1LZrOSO7j9aWaWLDm8qnX1PKX4xmmb4="
         }
       ]
     },
     {
-      "Route": "images/téléchargement (1).wbq1pbsr6c.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (1).png",
+      "Route": "images/SERVIER.xsohwfq3qt.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\SERVIER.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -93363,7 +93836,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3806"
+          "Value": "1413"
         },
         {
           "Name": "Content-Type",
@@ -93371,11 +93844,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIDzSkB+yjo15rHdPRoSTKy0eO4fFf6JZXWYd0Si8P0=\""
+          "Value": "\"L0wvoB1A+zyn1LZrOSO7j9aWaWLDm8qnX1PKX4xmmb4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:48:50 GMT"
+          "Value": "Thu, 19 Dec 2024 08:30:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -93385,261 +93858,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wbq1pbsr6c"
+          "Value": "xsohwfq3qt"
         },
         {
           "Name": "label",
-          "Value": "images/téléchargement (1).png"
+          "Value": "images/SERVIER.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jIDzSkB+yjo15rHdPRoSTKy0eO4fFf6JZXWYd0Si8P0="
-        }
-      ]
-    },
-    {
-      "Route": "images/téléchargement (2).71gvwvzk61.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (2).png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3870"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6466kXnlroNm1NSi8IojLznSmmkKg/h28q8JuAQEg94=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:50:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "71gvwvzk61"
-        },
-        {
-          "Name": "label",
-          "Value": "images/téléchargement (2).png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6466kXnlroNm1NSi8IojLznSmmkKg/h28q8JuAQEg94="
-        }
-      ]
-    },
-    {
-      "Route": "images/téléchargement (2).png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (2).png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3870"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6466kXnlroNm1NSi8IojLznSmmkKg/h28q8JuAQEg94=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:50:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6466kXnlroNm1NSi8IojLznSmmkKg/h28q8JuAQEg94="
-        }
-      ]
-    },
-    {
-      "Route": "images/téléchargement (3).2c4szsks7e.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (3).png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3773"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DsiVmb37V7DNqB4OQL3FXhkmuPaXNEfV4CWV9gW2rNU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:51:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2c4szsks7e"
-        },
-        {
-          "Name": "label",
-          "Value": "images/téléchargement (3).png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DsiVmb37V7DNqB4OQL3FXhkmuPaXNEfV4CWV9gW2rNU="
-        }
-      ]
-    },
-    {
-      "Route": "images/téléchargement (3).png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (3).png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3773"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DsiVmb37V7DNqB4OQL3FXhkmuPaXNEfV4CWV9gW2rNU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:51:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DsiVmb37V7DNqB4OQL3FXhkmuPaXNEfV4CWV9gW2rNU="
-        }
-      ]
-    },
-    {
-      "Route": "images/téléchargement.dsek5pje4q.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2099"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I59VdzJrtzOKTvYtbiy2I/uoyfZEE3i4PEEajJoIxEk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:46:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dsek5pje4q"
-        },
-        {
-          "Name": "label",
-          "Value": "images/téléchargement.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-I59VdzJrtzOKTvYtbiy2I/uoyfZEE3i4PEEajJoIxEk="
-        }
-      ]
-    },
-    {
-      "Route": "images/téléchargement.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2099"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I59VdzJrtzOKTvYtbiy2I/uoyfZEE3i4PEEajJoIxEk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:46:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-I59VdzJrtzOKTvYtbiy2I/uoyfZEE3i4PEEajJoIxEk="
+          "Value": "sha256-L0wvoB1A+zyn1LZrOSO7j9aWaWLDm8qnX1PKX4xmmb4="
         }
       ]
     },
@@ -94966,6 +95193,88 @@
         },
         {
           "Name": "Content-Length",
+          "Value": "6180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/LogoCNav_165x60.znqidbhz8k.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "znqidbhz8k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Website/LogoCNav_165x60.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/LogoCNav_165x60555555.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60555555.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
           "Value": "2314"
         },
         {
@@ -94993,8 +95302,8 @@
       ]
     },
     {
-      "Route": "images/Website/LogoCNav_165x60.pqktimgdl4.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60.png",
+      "Route": "images/Website/LogoCNav_165x60555555.pqktimgdl4.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60555555.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -95029,7 +95338,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Website/LogoCNav_165x60.png"
+          "Value": "images/Website/LogoCNav_165x60555555.png"
         },
         {
           "Name": "integrity",

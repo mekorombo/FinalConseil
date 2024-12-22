@@ -1425,8 +1425,32 @@
       "PackagePath": "staticwebassets\\fonts\\revicons90c6.woff"
     },
     {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\111111111111.png",
+      "PackagePath": "staticwebassets\\images\\111111111111.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\BPCE.png",
+      "PackagePath": "staticwebassets\\images\\BPCE.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\GrandVision2.png",
+      "PackagePath": "staticwebassets\\images\\GrandVision2.png"
+    },
+    {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\HomeFatat.png",
       "PackagePath": "staticwebassets\\images\\HomeFatat.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\L'Oreal.png",
+      "PackagePath": "staticwebassets\\images\\L'Oreal.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Natixis.png",
+      "PackagePath": "staticwebassets\\images\\Natixis.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\SERVIER.png",
+      "PackagePath": "staticwebassets\\images\\SERVIER.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\2.jpg",
@@ -1447,6 +1471,10 @@
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60.png",
       "PackagePath": "staticwebassets\\images\\Website\\LogoCNav_165x60.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60555555.png",
+      "PackagePath": "staticwebassets\\images\\Website\\LogoCNav_165x60555555.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\about.jpg",
@@ -1625,6 +1653,10 @@
       "PackagePath": "staticwebassets\\images\\background\\pattern-9.png"
     },
     {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\bo.png",
+      "PackagePath": "staticwebassets\\images\\bo.png"
+    },
+    {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\clients\\1.png",
       "PackagePath": "staticwebassets\\images\\clients\\1.png"
     },
@@ -1671,10 +1703,6 @@
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\clients\\a2d2e11b-f963-464f-9aea-96ca2c493df7_product-item13.jpg",
       "PackagePath": "staticwebassets\\images\\clients\\a2d2e11b-f963-464f-9aea-96ca2c493df7_product-item13.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\cropped-Logos-NIE.png",
-      "PackagePath": "staticwebassets\\images\\cropped-Logos-NIE.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\fancybox\\blank.gif",
@@ -1753,8 +1781,8 @@
       "PackagePath": "staticwebassets\\images\\icons\\waves-shape.png"
     },
     {
-      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\labo-partenaire-servier-logo.png",
-      "PackagePath": "staticwebassets\\images\\labo-partenaire-servier-logo.png"
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\laposte.png",
+      "PackagePath": "staticwebassets\\images\\laposte.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\logo-2.png",
@@ -2511,22 +2539,6 @@
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\resource\\video-img.jpg",
       "PackagePath": "staticwebassets\\images\\resource\\video-img.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (1).png",
-      "PackagePath": "staticwebassets\\images\\téléchargement (1).png"
-    },
-    {
-      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (2).png",
-      "PackagePath": "staticwebassets\\images\\téléchargement (2).png"
-    },
-    {
-      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement (3).png",
-      "PackagePath": "staticwebassets\\images\\téléchargement (3).png"
-    },
-    {
-      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\téléchargement.png",
-      "PackagePath": "staticwebassets\\images\\téléchargement.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\js\\appear.js",

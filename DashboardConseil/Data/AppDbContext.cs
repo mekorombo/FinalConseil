@@ -9,6 +9,9 @@ namespace DashboardConseil.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<OffreEmploi> OffresEmploi { get; set; } // Ajout du DbSet pour les offres d'emploi
+        public DbSet<NewsletterSubscription> NewsletterSubscriptions { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+
 
     }
 }

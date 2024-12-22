@@ -504,6 +504,7 @@ wwwroot\fonts\revicons90c6.eot
 wwwroot\fonts\revicons90c6.svg
 wwwroot\fonts\revicons90c6.ttf
 wwwroot\fonts\revicons90c6.woff
+wwwroot\images\111111111111.png
 wwwroot\images\background\1.jpg
 wwwroot\images\background\2.jpg
 wwwroot\images\background\3.jpg
@@ -520,6 +521,8 @@ wwwroot\images\background\pattern-6.png
 wwwroot\images\background\pattern-7.png
 wwwroot\images\background\pattern-8.png
 wwwroot\images\background\pattern-9.png
+wwwroot\images\bo.png
+wwwroot\images\BPCE.png
 wwwroot\images\clients\1.png
 wwwroot\images\clients\10.png
 wwwroot\images\clients\11.png
@@ -532,7 +535,6 @@ wwwroot\images\clients\7.png
 wwwroot\images\clients\8.png
 wwwroot\images\clients\9.png
 wwwroot\images\clients\a2d2e11b-f963-464f-9aea-96ca2c493df7_product-item13.jpg
-wwwroot\images\cropped-Logos-NIE.png
 wwwroot\images\fancybox\blank.gif
 wwwroot\images\fancybox\fancybox_loading.gif
 wwwroot\images\fancybox\fancybox_loading@2x.gif
@@ -541,6 +543,7 @@ wwwroot\images\fancybox\fancybox_sprite.png
 wwwroot\images\fancybox\fancybox_sprite@2x.png
 wwwroot\images\favicon.png
 wwwroot\images\footer-logo.png
+wwwroot\images\GrandVision2.png
 wwwroot\images\HomeFatat.png
 wwwroot\images\icons\flag-icon.jpg
 wwwroot\images\icons\icon-cross.png
@@ -553,7 +556,7 @@ wwwroot\images\icons\resize.png
 wwwroot\images\icons\signature.png
 wwwroot\images\icons\submenu-icon.png
 wwwroot\images\icons\waves-shape.png
-wwwroot\images\labo-partenaire-servier-logo.png
+wwwroot\images\laposte.png
 wwwroot\images\logo.png
 wwwroot\images\logo-2.png
 wwwroot\images\logo-3.png
@@ -562,6 +565,7 @@ wwwroot\images\logo-5.png
 wwwroot\images\logo-small.png
 wwwroot\images\logo-small-2.png
 wwwroot\images\logo-small-3.png
+wwwroot\images\L'Oreal.png
 wwwroot\images\main-slider\circle-pattern.png
 wwwroot\images\main-slider\content-image-1.png
 wwwroot\images\main-slider\image-1.jpg
@@ -569,6 +573,7 @@ wwwroot\images\main-slider\image-2.jpg
 wwwroot\images\main-slider\image-3.jpg
 wwwroot\images\main-slider\image-4.jpg
 wwwroot\images\main-slider\image-5.jpg
+wwwroot\images\Natixis.png
 wwwroot\images\offres-emploi\2.jpg
 wwwroot\images\offres-emploi\insta-item1.jpg
 wwwroot\images\offres-emploi\paypal-card.png
@@ -743,10 +748,7 @@ wwwroot\images\resource\testimonial-thumb-4.jpg
 wwwroot\images\resource\video-img.jpg
 wwwroot\images\resource\video-img-1.jpg
 wwwroot\images\resource\video-img-2.jpg
-wwwroot\images\téléchargement (1).png
-wwwroot\images\téléchargement (2).png
-wwwroot\images\téléchargement (3).png
-wwwroot\images\téléchargement.png
+wwwroot\images\SERVIER.png
 wwwroot\images\Website\2.jpg
 wwwroot\images\Website\3.jpg
 wwwroot\images\Website\about.jpg
@@ -764,6 +766,7 @@ wwwroot\images\Website\image-2.jpg
 wwwroot\images\Website\LogoC.png
 wwwroot\images\Website\LogoCNav.png
 wwwroot\images\Website\LogoCNav_165x60.png
+wwwroot\images\Website\LogoCNav_165x60555555.png
 wwwroot\images\Website\news-1.jpg
 wwwroot\images\Website\news-2.jpg
 wwwroot\images\Website\news-3.jpg
