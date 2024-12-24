@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DashboardConseil.Models.Service>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Chemin absolu vers le fichier _Layout.cshtml
+    ViewData["Title"] = "Liste des services";
+}
+
+<h1 class="mb-4 text-dark">Liste des services</h1>
+
+<a class="btn bg-gradient-primary mb-3" asp-action="Create">
+    <i class="material-symbols-rounded">add</i> Créer un nouveau service
+</a>
+
+<div class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
+    <div class="card-body px-0 pb-2">
+        <!-- Version tableau pour grands écrans -->
+        <table class="table">
+            <thead class="bg-gradient-dark text-white">
+                <tr>
+                    <th class="text-uppercase text-xs font-weight-bold">Nom</th>
+                    <th class="text-uppercase text-xs font-weight-bold">Description</th>
+                    <th class="text-uppercase text-xs font-weight-bold">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var service in Model)
+                {
+                    <tr>
+                        <td>@service.Nom</td>
+                        <td class="text-truncate" style="max-width: 200px;">@service.Description</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@service.Id" class="btn btn-sm bg-gradient-warning text-white">
+                                <i class="material-symbols-rounded">edit</i> Modifier
+                            </a>
+                   @*          <a asp-action="Details" asp-route-id="@service.Id" class="btn btn-sm bg-gradient-info text-white">
+                                <i class="material-symbols-rounded">visibility</i> Supprimer
+                            </a> *@
+                                                        <a asp-action="Details" asp-route-id="@service.Id" class="btn btn-sm bg-gradient-danger text-white">
+                                <i class="material-symbols-rounded">delete</i> Supprimer
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

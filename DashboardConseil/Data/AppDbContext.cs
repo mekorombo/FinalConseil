@@ -11,6 +11,8 @@ namespace DashboardConseil.Data
         public DbSet<OffreEmploi> OffresEmploi { get; set; } // Ajout du DbSet pour les offres d'emploi
         public DbSet<NewsletterSubscription> NewsletterSubscriptions { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Service> Services { get; set; }
+
 
 
     }
