@@ -1433,6 +1433,10 @@
       "PackagePath": "staticwebassets\\images\\BPCE.png"
     },
     {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\CCT_Logo.png",
+      "PackagePath": "staticwebassets\\images\\CCT_Logo.png"
+    },
+    {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\GrandVision2.png",
       "PackagePath": "staticwebassets\\images\\GrandVision2.png"
     },
@@ -1443,6 +1447,10 @@
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\L'Oreal.png",
       "PackagePath": "staticwebassets\\images\\L'Oreal.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\LogoDeNavBar.png",
+      "PackagePath": "staticwebassets\\images\\LogoDeNavBar.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Natixis.png",
@@ -1469,12 +1477,16 @@
       "PackagePath": "staticwebassets\\images\\Website\\LogoCNav.png"
     },
     {
-      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60.png",
-      "PackagePath": "staticwebassets\\images\\Website\\LogoCNav_165x60.png"
-    },
-    {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60555555.png",
       "PackagePath": "staticwebassets\\images\\Website\\LogoCNav_165x60555555.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
+      "PackagePath": "staticwebassets\\images\\Website\\LogoDeNavBar.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XXXXXXX.png",
+      "PackagePath": "staticwebassets\\images\\Website\\XXXXXXX.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\about.jpg",
@@ -1847,6 +1859,26 @@
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\2.jpg",
       "PackagePath": "staticwebassets\\images\\offres-emploi\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-11-02 232356.png",
+      "PackagePath": "staticwebassets\\images\\offres-emploi\\Capture d'écran 2024-11-02 232356.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-04 121417.png",
+      "PackagePath": "staticwebassets\\images\\offres-emploi\\Capture d'écran 2024-12-04 121417.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 224412.png",
+      "PackagePath": "staticwebassets\\images\\offres-emploi\\Capture d'écran 2024-12-05 224412.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 231314.png",
+      "PackagePath": "staticwebassets\\images\\offres-emploi\\Capture d'écran 2024-12-05 231314.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-19 203110.png",
+      "PackagePath": "staticwebassets\\images\\offres-emploi\\Capture d'écran 2024-12-19 203110.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\insta-item1.jpg",

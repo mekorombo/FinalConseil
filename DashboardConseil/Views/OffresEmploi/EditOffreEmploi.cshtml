@@ -5,70 +5,91 @@
     ViewData["Title"] = "Modifier une offre d'emploi";
 }
 
-<h1>Modifier une offre d'emploi</h1>
+<h1 class="mb-4 text-center text-dark">Modifier une offre d'emploi</h1>
 
-<div class="row">
-    <div class="col-md-8">
-        <form asp-action="EditOffreEmploi" method="post" enctype="multipart/form-data">
-            <input type="hidden" asp-for="Id" />
+<div class="card shadow-sm p-5 bg-light rounded-lg border-0">
+    <form asp-action="EditOffreEmploi" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
 
-            <div class="form-group">
-                <label asp-for="Titre" class="control-label"></label>
-                <input asp-for="Titre" class="form-control" />
-                <span asp-validation-for="Titre" class="text-danger"></span>
-            </div>
+        <!-- Titre -->
+        <div class="form-group mb-4">
+            <label asp-for="Titre" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">title</i> Titre de l'offre
+            </label>
+            <input asp-for="Titre" class="form-control form-control-lg shadow-sm border-primary" />
+            <span asp-validation-for="Titre" class="text-danger small"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <textarea asp-for="Description" class="form-control"></textarea>
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
+        <!-- Description -->
+        <div class="form-group mb-4">
+            <label asp-for="Description" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">description</i> Description
+            </label>
+            <textarea asp-for="Description" class="form-control shadow-sm border-primary" rows="5"></textarea>
+            <span asp-validation-for="Description" class="text-danger small"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Entreprise" class="control-label"></label>
-                <input asp-for="Entreprise" class="form-control" />
-                <span asp-validation-for="Entreprise" class="text-danger"></span>
-            </div>
+        <!-- Entreprise -->
+        <div class="form-group mb-4">
+            <label asp-for="Entreprise" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">business</i> Nom de l'entreprise
+            </label>
+            <input asp-for="Entreprise" class="form-control form-control-lg shadow-sm border-primary" />
+            <span asp-validation-for="Entreprise" class="text-danger small"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="DatePublication" class="control-label"></label>
-                <input asp-for="DatePublication" class="form-control" type="date" />
-                <span asp-validation-for="DatePublication" class="text-danger"></span>
-            </div>
+        <!-- Date de publication -->
+        <div class="form-group mb-4">
+            <label asp-for="DatePublication" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">calendar_today</i> Date de publication
+            </label>
+            <input asp-for="DatePublication" class="form-control shadow-sm border-primary" type="date" />
+            <span asp-validation-for="DatePublication" class="text-danger small"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Lieu" class="control-label"></label>
-                <input asp-for="Lieu" class="form-control" />
-                <span asp-validation-for="Lieu" class="text-danger"></span>
-            </div>
+        <!-- Lieu -->
+        <div class="form-group mb-4">
+            <label asp-for="Lieu" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">location_on</i> Lieu
+            </label>
+            <input asp-for="Lieu" class="form-control form-control-lg shadow-sm border-primary" />
+            <span asp-validation-for="Lieu" class="text-danger small"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="ImageUrl" class="control-label">Image actuelle</label>
-                @if (!string.IsNullOrEmpty(Model.ImageUrl))
-                {
-                    <div>
-                        <img src="~/images/offres-emploi/@Model.ImageUrl" alt="Image de l'offre" style="max-width: 200px;" />
-                    </div>
-                }
-                else
-                {
-                    <p>Aucune image disponible</p>
-                }
-            </div>
+        <!-- Image actuelle -->
+        <div class="form-group mb-4">
+            <label class="form-label text-dark fw-semibold">Image actuelle</label>
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <div>
+                    <img src="~/images/offres-emploi/@Model.ImageUrl" alt="Image de l'offre" class="img-fluid" style="max-width: 200px;" />
+                </div>
+            }
+            else
+            {
+                <p>Aucune image disponible</p>
+            }
+        </div>
 
-            <div class="form-group">
-                <label asp-for="FichierImage" class="control-label">Changer l'image</label>
-                <input asp-for="FichierImage" type="file" class="form-control" />
-                <span asp-validation-for="FichierImage" class="text-danger"></span>
-            </div>
+        <!-- Changer l'image -->
+        <div class="form-group mb-4">
+            <label asp-for="FichierImage" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">photo</i> Changer l'image
+            </label>
+            <input asp-for="FichierImage" type="file" class="form-control shadow-sm border-primary" />
+            <span asp-validation-for="FichierImage" class="text-danger small"></span>
+        </div>
 
-            <!-- Boutons d'action -->
-            <div class="form-group mt-3">
-                <button type="submit" class="btn btn-primary">Enregistrer</button>
-                <a asp-action="IndexOffreEmploi" class="btn btn-secondary">Annuler</a>
-            </div>
-        </form>
-    </div>
+        <!-- Boutons d'action -->
+        <div class="d-flex justify-content-between mt-4">
+            <a asp-action="IndexOffreEmploi" class="btn btn-outline-secondary btn-lg text-dark">
+                <i class="material-symbols-rounded">arrow_back</i> Annuler
+            </a>
+            <button type="submit" class="btn btn-info btn-lg text-white">
+                <i class="material-symbols-rounded">save</i> Enregistrer les modifications
+            </button>
+        </div>
+    </form>
 </div>
 
 @section Scripts {

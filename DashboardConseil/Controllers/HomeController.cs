@@ -1,23 +1,30 @@
 using System.Diagnostics;
+using DashboardConseil.Data;
 using DashboardConseil.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace DashboardConseil.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly AppDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,AppDbContext context)
         {
             _logger = logger;
+            _context = context;
+
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var services = await _context.Services.ToListAsync();
+            return View(services);
         }
+
         public IActionResult About()
         {
             return View(); // Maps to About.cshtml

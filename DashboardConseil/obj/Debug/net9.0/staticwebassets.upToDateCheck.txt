@@ -523,6 +523,7 @@ wwwroot\images\background\pattern-8.png
 wwwroot\images\background\pattern-9.png
 wwwroot\images\bo.png
 wwwroot\images\BPCE.png
+wwwroot\images\CCT_Logo.png
 wwwroot\images\clients\1.png
 wwwroot\images\clients\10.png
 wwwroot\images\clients\11.png
@@ -562,6 +563,7 @@ wwwroot\images\logo-2.png
 wwwroot\images\logo-3.png
 wwwroot\images\logo-4.png
 wwwroot\images\logo-5.png
+wwwroot\images\LogoDeNavBar.png
 wwwroot\images\logo-small.png
 wwwroot\images\logo-small-2.png
 wwwroot\images\logo-small-3.png
@@ -575,6 +577,11 @@ wwwroot\images\main-slider\image-4.jpg
 wwwroot\images\main-slider\image-5.jpg
 wwwroot\images\Natixis.png
 wwwroot\images\offres-emploi\2.jpg
+wwwroot\images\offres-emploi\Capture d'écran 2024-11-02 232356.png
+wwwroot\images\offres-emploi\Capture d'écran 2024-12-04 121417.png
+wwwroot\images\offres-emploi\Capture d'écran 2024-12-05 224412.png
+wwwroot\images\offres-emploi\Capture d'écran 2024-12-05 231314.png
+wwwroot\images\offres-emploi\Capture d'écran 2024-12-19 203110.png
 wwwroot\images\offres-emploi\insta-item1.jpg
 wwwroot\images\offres-emploi\paypal-card.png
 wwwroot\images\offres-emploi\product-item11.jpg
@@ -765,8 +772,8 @@ wwwroot\images\Website\image-1.jpg
 wwwroot\images\Website\image-2.jpg
 wwwroot\images\Website\LogoC.png
 wwwroot\images\Website\LogoCNav.png
-wwwroot\images\Website\LogoCNav_165x60.png
 wwwroot\images\Website\LogoCNav_165x60555555.png
+wwwroot\images\Website\LogoDeNavBar.png
 wwwroot\images\Website\news-1.jpg
 wwwroot\images\Website\news-2.jpg
 wwwroot\images\Website\news-3.jpg
@@ -783,6 +790,7 @@ wwwroot\images\Website\testimonial-thumb-2.jpg
 wwwroot\images\Website\testimonial-thumb-3.jpg
 wwwroot\images\Website\testimonial-thumb-4.jpg
 wwwroot\images\Website\waves-shape.png
+wwwroot\images\Website\XXXXXXX.png
 wwwroot\js\appear.js
 wwwroot\js\bootstrap.min.js
 wwwroot\js\isotope.js

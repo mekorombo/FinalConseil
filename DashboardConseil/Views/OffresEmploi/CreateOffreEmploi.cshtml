@@ -5,56 +5,99 @@
     ViewData["Title"] = "Créer une nouvelle offre d'emploi";
 }
 
-<h1>Créer une nouvelle offre d'emploi</h1>
+<h1 class="mb-4 text-center text-dark">Créer une nouvelle offre d'emploi</h1>
 
-<div class="row">
-    <div class="col-md-8">
-        <form asp-action="CreateOffreEmploi" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label asp-for="Titre" class="control-label"></label>
-                <input asp-for="Titre" class="form-control" />
-                <span asp-validation-for="Titre" class="text-danger"></span>
+<div class="card shadow-sm p-5 bg-light rounded-lg border-0">
+    <form asp-action="CreateOffreEmploi" method="post" enctype="multipart/form-data">
+        <!-- Titre -->
+        <div class="form-group mb-4">
+            <label asp-for="Titre" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">title</i> Titre de l'offre
+            </label>
+            <input asp-for="Titre" class="form-control form-control-lg shadow-sm border-primary"
+                   placeholder="Exemple : Développeur Full-Stack Senior" />
+            <span asp-validation-for="Titre" class="text-danger small"></span>
+        </div>
+
+        <!-- Description -->
+        <div class="form-group mb-4">
+            <label asp-for="Description" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">description</i> Description
+            </label>
+            <textarea asp-for="Description" class="form-control shadow-sm border-primary" rows="5"
+                      placeholder="Décrivez les missions, responsabilités et exigences"></textarea>
+            <span asp-validation-for="Description" class="text-danger small"></span>
+        </div>
+
+        <!-- Entreprise -->
+        <div class="form-group mb-4">
+            <label asp-for="Entreprise" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">business</i> Nom de l'entreprise
+            </label>
+            <input asp-for="Entreprise" class="form-control form-control-lg shadow-sm border-primary"
+                   placeholder="Exemple : Tech Innovators Inc." />
+            <span asp-validation-for="Entreprise" class="text-danger small"></span>
+        </div>
+
+        <!-- Date de publication -->
+        <div class="form-group mb-4">
+            <label asp-for="DatePublication" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">calendar_today</i> Date de publication
+            </label>
+            <input asp-for="DatePublication" type="date" class="form-control shadow-sm border-primary" />
+            <span asp-validation-for="DatePublication" class="text-danger small"></span>
+        </div>
+
+        <!-- Lieu -->
+        <div class="form-group mb-4">
+            <label asp-for="Lieu" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">location_on</i> Lieu
+            </label>
+            <input asp-for="Lieu" class="form-control form-control-lg shadow-sm border-primary"
+                   placeholder="Exemple : Paris, France" />
+            <span asp-validation-for="Lieu" class="text-danger small"></span>
+        </div>
+
+        <!-- Fichier Image -->
+        <div class="form-group mb-4">
+            <label for="FichierImage" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">photo</i> Image associée
+            </label>
+            <div class="custom-file">
+                <input asp-for="FichierImage" type="file" class="form-control-file shadow-sm border-primary" id="FichierImage" />
+                <span asp-validation-for="FichierImage" class="text-danger small"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <textarea asp-for="Description" class="form-control"></textarea>
-                <span asp-validation-for="Description" class="text-danger"></span>
+            <!-- Afficher un aperçu de l'image téléchargée -->
+            <div id="imagePreview" class="mt-3" style="display: none;">
+                <img src="" alt="Aperçu de l'image" class="img-fluid" />
             </div>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Entreprise" class="control-label"></label>
-                <input asp-for="Entreprise" class="form-control" />
-                <span asp-validation-for="Entreprise" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <label asp-for="DatePublication" class="control-label"></label>
-                <input asp-for="DatePublication" class="form-control" type="date" />
-                <span asp-validation-for="DatePublication" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <label asp-for="Lieu" class="control-label"></label>
-                <input asp-for="Lieu" class="form-control" />
-                <span asp-validation-for="Lieu" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <label asp-for="FichierImage" class="control-label">Image (fichier à télécharger)</label>
-                <input asp-for="FichierImage" type="file" class="form-control" />
-                <span asp-validation-for="FichierImage" class="text-danger"></span>
-            </div>
-
-            <!-- Boutons d'action -->
-            <div class="form-group mt-3">
-                <button type="submit" class="btn btn-primary">Créer</button>
-                <a asp-action="IndexOffreEmploi" class="btn btn-secondary">Annuler</a>
-            </div>
-        </form>
-    </div>
+        <!-- Boutons d'action -->
+        <div class="d-flex justify-content-between mt-4">
+            <a asp-action="IndexOffreEmploi" class="btn btn-outline-secondary btn-lg text-dark">
+                <i class="material-symbols-rounded">arrow_back</i> Annuler
+            </a>
+            <button type="submit" class="btn btn-info btn-lg text-white">
+                <i class="material-symbols-rounded">save</i> Enregistrer l'offre
+            </button>
+        </div>
+    </form>
 </div>
 
 @section Scripts {
+    <script>
+        document.getElementById('FichierImage').addEventListener('change', function (event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var preview = document.getElementById('imagePreview');
+                var image = preview.querySelector('img');
+                image.src = reader.result;
+                preview.style.display = 'block';
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        });
+    </script>
     <partial name="_ValidationScriptsPartial" />
 }

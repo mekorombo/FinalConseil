@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IyZ4WxigljWBqDzcNUwIiGF/WqMvUJQinnT0TW8dyfQ=",
+  "Hash": "PUl5x6xPkkRGVsqdbcq95jZSisBbjFYaTV5uqFT24Sc=",
   "Source": "DashboardConseil",
   "BasePath": "_content/DashboardConseil",
   "Mode": "Default",
@@ -13751,6 +13751,27 @@
       "OriginalItemSpec": "wwwroot\\images\\BPCE.png"
     },
     {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\CCT_Logo.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/CCT_Logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aq71p8c2oo",
+      "Integrity": "YvaPJlzExqASDyhx/Dp5CkUlTa77SSH9/itsnq9YWeM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CCT_Logo.png"
+    },
+    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\clients\\1.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -14570,6 +14591,27 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-5.png"
     },
     {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\LogoDeNavBar.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/LogoDeNavBar#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfxim74v1p",
+      "Integrity": "STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\LogoDeNavBar.png"
+    },
+    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\logo-small.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -14841,6 +14883,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\offres-emploi\\2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-11-02 232356.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/offres-emploi/Capture d'écran 2024-11-02 232356#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9qznxpb9d8",
+      "Integrity": "ocmr58yslIcawwkRRqlHua8tF+K35Us3OpDLoCDSCCM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\offres-emploi\\Capture d'écran 2024-11-02 232356.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-04 121417.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/offres-emploi/Capture d'écran 2024-12-04 121417#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ox0tczbjdt",
+      "Integrity": "/BFyOlDeAuoUovK9em04zBBvwacGIVBCz2IwJKX0iu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-04 121417.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 224412.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/offres-emploi/Capture d'écran 2024-12-05 224412#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a4w8p0jpih",
+      "Integrity": "ZoIwbh3SvSrfxLtH8shxluktSm/97WVdPVQ9izBBFFI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 224412.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 231314.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/offres-emploi/Capture d'écran 2024-12-05 231314#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g4ev9rwpo3",
+      "Integrity": "QI62XfcEOr1CtNjAycfqnAK+gXNS/K/JlS2+xTK/PKc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 231314.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-19 203110.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/offres-emploi/Capture d'écran 2024-12-19 203110#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v7jk2depzs",
+      "Integrity": "tavZg+I9vfqqn3zOSFlNSx42BCtLhV/Sa1Fm59SBJiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-19 203110.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\insta-item1.jpg",
@@ -18833,27 +18980,6 @@
       "OriginalItemSpec": "wwwroot\\images\\Website\\LogoCNav.png"
     },
     {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60.png",
-      "SourceId": "DashboardConseil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
-      "BasePath": "_content/DashboardConseil",
-      "RelativePath": "images/Website/LogoCNav_165x60#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "znqidbhz8k",
-      "Integrity": "gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Website\\LogoCNav_165x60.png"
-    },
-    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60555555.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -18873,6 +18999,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Website\\LogoCNav_165x60555555.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/Website/LogoDeNavBar#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "znqidbhz8k",
+      "Integrity": "gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Website\\LogoDeNavBar.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\news-1.jpg",
@@ -19209,6 +19356,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Website\\waves-shape.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XXXXXXX.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/Website/XXXXXXX#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfxim74v1p",
+      "Integrity": "STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Website\\XXXXXXX.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\js\\appear.js",
@@ -75123,6 +75291,88 @@
       ]
     },
     {
+      "Route": "images/CCT_Logo.aq71p8c2oo.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\CCT_Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YvaPJlzExqASDyhx/Dp5CkUlTa77SSH9/itsnq9YWeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 14:04:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aq71p8c2oo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/CCT_Logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YvaPJlzExqASDyhx/Dp5CkUlTa77SSH9/itsnq9YWeM="
+        }
+      ]
+    },
+    {
+      "Route": "images/CCT_Logo.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\CCT_Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YvaPJlzExqASDyhx/Dp5CkUlTa77SSH9/itsnq9YWeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 14:04:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YvaPJlzExqASDyhx/Dp5CkUlTa77SSH9/itsnq9YWeM="
+        }
+      ]
+    },
+    {
       "Route": "images/clients/1.png",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\clients\\1.png",
       "Selectors": [],
@@ -78537,6 +78787,88 @@
       ]
     },
     {
+      "Route": "images/LogoDeNavBar.bfxim74v1p.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\LogoDeNavBar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 10:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfxim74v1p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/LogoDeNavBar.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE="
+        }
+      ]
+    },
+    {
+      "Route": "images/LogoDeNavBar.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\LogoDeNavBar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 10:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE="
+        }
+      ]
+    },
+    {
       "Route": "images/logo-small.b9jifjvxgc.png",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\logo-small.png",
       "Selectors": [],
@@ -79599,6 +79931,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-ONOFOSLKZmGjXAbWPWEBNIzVxW9UbxziYz/OE59RUGE="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-11-02 232356.9qznxpb9d8.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-11-02 232356.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368805"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ocmr58yslIcawwkRRqlHua8tF+K35Us3OpDLoCDSCCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:28:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9qznxpb9d8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/offres-emploi/Capture d'écran 2024-11-02 232356.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ocmr58yslIcawwkRRqlHua8tF+K35Us3OpDLoCDSCCM="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-11-02 232356.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-11-02 232356.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368805"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ocmr58yslIcawwkRRqlHua8tF+K35Us3OpDLoCDSCCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:28:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ocmr58yslIcawwkRRqlHua8tF+K35Us3OpDLoCDSCCM="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-04 121417.ox0tczbjdt.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-04 121417.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/BFyOlDeAuoUovK9em04zBBvwacGIVBCz2IwJKX0iu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:30:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ox0tczbjdt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/offres-emploi/Capture d'écran 2024-12-04 121417.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/BFyOlDeAuoUovK9em04zBBvwacGIVBCz2IwJKX0iu8="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-04 121417.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-04 121417.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/BFyOlDeAuoUovK9em04zBBvwacGIVBCz2IwJKX0iu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:30:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/BFyOlDeAuoUovK9em04zBBvwacGIVBCz2IwJKX0iu8="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-05 224412.a4w8p0jpih.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 224412.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "903902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZoIwbh3SvSrfxLtH8shxluktSm/97WVdPVQ9izBBFFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 10:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4w8p0jpih"
+        },
+        {
+          "Name": "label",
+          "Value": "images/offres-emploi/Capture d'écran 2024-12-05 224412.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZoIwbh3SvSrfxLtH8shxluktSm/97WVdPVQ9izBBFFI="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-05 224412.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 224412.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "903902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZoIwbh3SvSrfxLtH8shxluktSm/97WVdPVQ9izBBFFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 10:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZoIwbh3SvSrfxLtH8shxluktSm/97WVdPVQ9izBBFFI="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-05 231314.g4ev9rwpo3.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 231314.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QI62XfcEOr1CtNjAycfqnAK+gXNS/K/JlS2+xTK/PKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:14:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4ev9rwpo3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/offres-emploi/Capture d'écran 2024-12-05 231314.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QI62XfcEOr1CtNjAycfqnAK+gXNS/K/JlS2+xTK/PKc="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-05 231314.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-05 231314.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QI62XfcEOr1CtNjAycfqnAK+gXNS/K/JlS2+xTK/PKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:14:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QI62XfcEOr1CtNjAycfqnAK+gXNS/K/JlS2+xTK/PKc="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-19 203110.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-19 203110.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tavZg+I9vfqqn3zOSFlNSx42BCtLhV/Sa1Fm59SBJiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:10:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tavZg+I9vfqqn3zOSFlNSx42BCtLhV/Sa1Fm59SBJiE="
+        }
+      ]
+    },
+    {
+      "Route": "images/offres-emploi/Capture d'écran 2024-12-19 203110.v7jk2depzs.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\offres-emploi\\Capture d'écran 2024-12-19 203110.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tavZg+I9vfqqn3zOSFlNSx42BCtLhV/Sa1Fm59SBJiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 20:10:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v7jk2depzs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/offres-emploi/Capture d'écran 2024-12-19 203110.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tavZg+I9vfqqn3zOSFlNSx42BCtLhV/Sa1Fm59SBJiE="
         }
       ]
     },
@@ -95183,88 +95925,6 @@
       ]
     },
     {
-      "Route": "images/Website/LogoCNav_165x60.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6180"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/Website/LogoCNav_165x60.znqidbhz8k.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6180"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "znqidbhz8k"
-        },
-        {
-          "Name": "label",
-          "Value": "images/Website/LogoCNav_165x60.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
-        }
-      ]
-    },
-    {
       "Route": "images/Website/LogoCNav_165x60555555.png",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoCNav_165x60555555.png",
       "Selectors": [],
@@ -95343,6 +96003,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-v0dEG6IKAdvENJSzZvIOPVBYQRwTlspEkJx3sFHgCPo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/LogoDeNavBar.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/LogoDeNavBar.znqidbhz8k.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "znqidbhz8k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Website/LogoDeNavBar.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
         }
       ]
     },
@@ -96655,6 +97397,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-F2SCnXzwB3xuKiGNzawbSOiCwpvlDpeZu9NjFaAw5q0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/XXXXXXX.bfxim74v1p.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XXXXXXX.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 10:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfxim74v1p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Website/XXXXXXX.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/XXXXXXX.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XXXXXXX.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 10:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-STRZ8fzpFa3pEF+AfqF4uWNOMYb5U307E3rFMOt5qLE="
         }
       ]
     },

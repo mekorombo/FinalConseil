@@ -1,0 +1,41 @@
+﻿@model IEnumerable<DashboardConseil.Models.NewsletterSubscription>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Chemin vers le fichier _Layout.cshtml
+    ViewData["Title"] = "Liste des abonnements à la newsletter";
+}
+
+<h1 class="mb-4 text-dark">Liste des abonnements à la newsletter</h1>
+
+@* <a class="btn bg-gradient-primary mb-3" asp-action="Create">
+    <i class="material-symbols-rounded">add</i> Ajouter un nouvel abonnement
+</a> *@
+
+<div class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
+    <div class="card-body px-0 pb-2">
+        <!-- Tableau pour lister les abonnements -->
+        <table class="table">
+            <thead class="bg-gradient-dark text-white">
+                <tr>
+                    <th class="text-uppercase text-xs font-weight-bold">Email</th>
+                    <th class="text-uppercase text-xs font-weight-bold">Date d'abonnement</th>
+                    <th class="text-uppercase text-xs font-weight-bold">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var subscription in Model)
+                {
+                    <tr>
+                        <td>@subscription.Email</td>
+                        <td>@subscription.SubscribedOn.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td>
+                            <a asp-action="Delete" asp-route-id="@subscription.Id" class="btn btn-sm bg-gradient-danger text-white">
+                                <i class="material-symbols-rounded">delete</i> Supprimer
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
