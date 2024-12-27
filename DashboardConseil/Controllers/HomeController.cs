@@ -44,9 +44,14 @@ namespace DashboardConseil.Controllers
         {
             return View(); // Maps to TeamDetaille.cshtml
         }
-        public IActionResult Service()
+        public async Task<IActionResult> Service()
         {
-            return View(); // Maps to Team.cshtml
+            var topServices = await _context.Services
+                .OrderByDescending(s => s.Id) // Trier par ID décroissant
+                .Take(3) // Récupérer les 3 premiers
+                .ToListAsync();
+
+            return View(topServices); // Maps to Team.cshtml
         }
 
         public IActionResult ServiceDetaille()
