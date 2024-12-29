@@ -21,8 +21,13 @@ namespace DashboardConseil.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var services = await _context.Services.ToListAsync();
-            return View(services);
+
+            var topServices = await _context.Services
+    .OrderByDescending(s => s.Id) // Trier par ID décroissant
+    .Take(3) // Récupérer les 3 premiers
+    .ToListAsync();
+
+            return View(topServices); // Maps to Team.cshtml
         }
 
         public IActionResult About()
@@ -46,12 +51,8 @@ namespace DashboardConseil.Controllers
         }
         public async Task<IActionResult> Service()
         {
-            var topServices = await _context.Services
-                .OrderByDescending(s => s.Id) // Trier par ID décroissant
-                .Take(3) // Récupérer les 3 premiers
-                .ToListAsync();
-
-            return View(topServices); // Maps to Team.cshtml
+            var services = await _context.Services.ToListAsync();
+            return View(services);
         }
 
         public IActionResult ServiceDetaille()

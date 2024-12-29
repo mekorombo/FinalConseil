@@ -1,17 +1,17 @@
 ﻿@model IEnumerable<DashboardConseil.Models.Service>
 @{
-	Layout = "~/Views/Shared/_LayoutSite.cshtml";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
 }
 @await Html.PartialAsync("~/Views/Shared/_NavLayout.cshtml")
 
 <section class="page-title" style="background-image: url(images/Website/3.jpg)">
-	<div class="auto-container">
-		<h1>Services</h1>
-		<ul class="page-breadcrumb">
-			<li><a href="index">home</a></li>
-			<li>Services</li>
-		</ul>
-	</div>
+    <div class="auto-container">
+        <h1>Services</h1>
+        <ul class="page-breadcrumb">
+            <li><a href="index">home</a></li>
+            <li>Services</li>
+        </ul>
+    </div>
 </section>
 
 <section class="services-section">
@@ -24,27 +24,27 @@
 		<div class="row clearfix">
 			@foreach (var service in Model)
 			{
-				<div class="service-block col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="color-layer">
-							<span class="side-icon flaticon-line-graph"></span>
-						</div>
-						<div class="icon-box">
-							<span class="icon flaticon-bar-chart"></span>
-						</div>
-						<h4>
-							<a href="@Url.Action("Details", "Services", new { id = service.Id })">
-								@service.Nom
-							</a>
-						</h4>
-						<div class="text">@service.Description</div>
-						<a class="arrow" href="/Service">
-							<span class="txt">More</span>
-							<span class="arrow-icon flaticon-right-arrow-1"></span>
-						</a>
-					</div>
-				</div>
-			}
+                <div class="service-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp h-100" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="color-layer">
+                            <span class="side-icon flaticon-line-graph"></span>
+                        </div>
+                        <div class="icon-box">
+                            <span class="icon flaticon-bar-chart"></span>
+                        </div>
+                        <h4>
+                            <a href="@Url.Action("Details", "Services", new { id = service.Id })">
+                                @service.Nom
+                            </a>
+                        </h4>
+                        <div class="text">@service.Description</div>
+                        <a class="arrow" href="/Service">
+                            <span class="txt">More</span>
+                            <span class="arrow-icon flaticon-right-arrow-1"></span>
+                        </a>
+                    </div>
+                </div>
+            }
 		</div>
 	</div>
 </section><!-- End Services Section -->
