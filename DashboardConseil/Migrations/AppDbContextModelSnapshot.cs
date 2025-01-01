@@ -204,11 +204,6 @@ namespace DashboardConseil.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
-
                     b.Property<string>("Lieu")
                         .IsRequired()
                         .HasMaxLength(100)

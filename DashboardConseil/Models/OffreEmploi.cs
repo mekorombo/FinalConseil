@@ -32,9 +32,6 @@ namespace DashboardConseil.Models
         [Display(Name = "Lieu")]
         public string Lieu { get; set; } // Localisation de l'offre
 
-        [StringLength(250)]
-        [Display(Name = "Image (URL ou chemin du fichier)")]
-        public string ImageUrl { get; set; } // Nouveau champ pour l'image
         [Required]
         [StringLength(500)]
         [Display(Name = "Qualifications minimales")]

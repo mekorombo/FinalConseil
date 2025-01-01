@@ -39,13 +39,13 @@ namespace DashboardConseil.ViewModel
         //[Display(Name = "URL de l'offre (optionnel)")]
         //public string Url { get; set; } // URL de l'offre (optionnel)
 
-        [StringLength(250, ErrorMessage = "L'URL ou chemin du fichier ne peut pas dépasser 250 caractères.")]
-        [Display(Name = "Image (URL ou chemin du fichier)")]
-        public string ImageUrl { get; set; } // URL ou chemin du fichier image associé à l'offre
+        //[StringLength(250, ErrorMessage = "L'URL ou chemin du fichier ne peut pas dépasser 250 caractères.")]
+        //[Display(Name = "Image (URL ou chemin du fichier)")]
+        //public string ImageUrl { get; set; } // URL ou chemin du fichier image associé à l'offre
 
-        // Si vous avez besoin de gérer un fichier image à télécharger, vous pouvez ajouter un champ de type IFormFile
-        [DataType(DataType.Upload)]
-        public IFormFile FichierImage { get; set; } // Fichier image pour l'offre d'emploi
+        //// Si vous avez besoin de gérer un fichier image à télécharger, vous pouvez ajouter un champ de type IFormFile
+        //[DataType(DataType.Upload)]
+        //public IFormFile FichierImage { get; set; } // Fichier image pour l'offre d'emploi
     }
 
 }

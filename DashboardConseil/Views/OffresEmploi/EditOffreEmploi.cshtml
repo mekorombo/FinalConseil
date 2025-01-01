@@ -1,4 +1,4 @@
-﻿@model DashboardConseil.ViewModel.OffreEmploiViewModel
+﻿@model DashboardConseil.Models.OffreEmploi
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,7 +8,7 @@
 <h1 class="mb-4 text-center text-dark">Modifier une offre d'emploi</h1>
 
 <div class="card shadow-sm p-5 bg-light rounded-lg border-0">
-    <form asp-action="EditOffreEmploi" method="post" enctype="multipart/form-data">
+    <form asp-action="EditOffreEmploi" method="post">
         <input type="hidden" asp-for="Id" />
 
         <!-- Titre -->
@@ -56,28 +56,22 @@
             <span asp-validation-for="Lieu" class="text-danger small"></span>
         </div>
 
-        <!-- Image actuelle -->
+        <!-- Qualifications minimales -->
         <div class="form-group mb-4">
-            <label class="form-label text-dark fw-semibold">Image actuelle</label>
-            @if (!string.IsNullOrEmpty(Model.ImageUrl))
-            {
-                <div>
-                    <img src="~/images/offres-emploi/@Model.ImageUrl" alt="Image de l'offre" class="img-fluid" style="max-width: 200px;" />
-                </div>
-            }
-            else
-            {
-                <p>Aucune image disponible</p>
-            }
+            <label asp-for="MinimumQualifications" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">school</i> Qualifications minimales
+            </label>
+            <textarea asp-for="MinimumQualifications" class="form-control shadow-sm border-primary" rows="3"></textarea>
+            <span asp-validation-for="MinimumQualifications" class="text-danger small"></span>
         </div>
 
-        <!-- Changer l'image -->
+        <!-- Qualifications préférées -->
         <div class="form-group mb-4">
-            <label asp-for="FichierImage" class="form-label text-dark fw-semibold">
-                <i class="material-symbols-rounded">photo</i> Changer l'image
+            <label asp-for="PreferredQualifications" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">star</i> Qualifications préférées
             </label>
-            <input asp-for="FichierImage" type="file" class="form-control shadow-sm border-primary" />
-            <span asp-validation-for="FichierImage" class="text-danger small"></span>
+            <textarea asp-for="PreferredQualifications" class="form-control shadow-sm border-primary" rows="3"></textarea>
+            <span asp-validation-for="PreferredQualifications" class="text-danger small"></span>
         </div>
 
         <!-- Boutons d'action -->

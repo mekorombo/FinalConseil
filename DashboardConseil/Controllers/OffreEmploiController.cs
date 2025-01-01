@@ -1,10 +1,10 @@
 ﻿using DashboardConseil.Data;
 using DashboardConseil.Models;
-using DashboardConseil.ViewModel;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Components.RenderTree;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
+using System.IO;
 
 namespace DashboardConseil.Controllers
 {
@@ -26,20 +26,7 @@ namespace DashboardConseil.Controllers
         public async Task<IActionResult> IndexOffreEmploi()
         {
             var offresEmploi = await _context.OffresEmploi.ToListAsync();
-
-            // Transformer les entités en ViewModel
-            var offresEmploiViewModel = offresEmploi.Select(o => new DashboardConseil.ViewModel.OffreEmploiViewModel
-            {
-                Id = o.Id,
-                Titre = o.Titre,
-                Description = o.Description,
-                DatePublication = o.DatePublication,
-                Lieu = o.Lieu,
-                ImageUrl = o.ImageUrl
-            }).ToList();
-
-            // Retourner les ViewModels à la vue
-            return View("~/Views/OffresEmploi/IndexOffreEmploi.cshtml", offresEmploiViewModel);
+            return View("~/Views/OffresEmploi/IndexOffreEmploi.cshtml", offresEmploi);
         }
 
         // ----------------------------
@@ -47,177 +34,126 @@ namespace DashboardConseil.Controllers
         // ----------------------------
         public IActionResult CreateOffreEmploi()
         {
-            var offreEmploi = new OffreEmploiViewModel();
-            return View("~/Views/OffresEmploi/CreateOffreEmploi.cshtml", offreEmploi); // Vue création
+            return View("~/Views/OffresEmploi/CreateOffreEmploi.cshtml");
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateOffreEmploi(OffreEmploiViewModel model)
+        public async Task<IActionResult> CreateOffreEmploi(OffreEmploi model)
         {
-            
-                var offre = new OffreEmploi
-                {
-                    Titre = model.Titre,
-                    Description = model.Description,
-                    Entreprise = model.Entreprise,
-                    DatePublication = model.DatePublication,
-                    Lieu = model.Lieu
-                };
-
-                // Gérer le téléchargement de l'image
-                if (model.FichierImage != null && model.FichierImage.Length > 0)
-                {
-                    var filePath = Path.Combine("wwwroot/images/offres-emploi", model.FichierImage.FileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await model.FichierImage.CopyToAsync(stream);
-                    }
-                    offre.ImageUrl = model.FichierImage.FileName; // Enregistrer le chemin ou nom du fichier
-                }
-
+            if (ModelState.IsValid)
+            {
                 // Ajouter l'offre à la base de données
-                _context.OffresEmploi.Add(offre);
+                _context.OffresEmploi.Add(model);
                 await _context.SaveChangesAsync();
 
                 // Rediriger vers la liste des offres
                 return RedirectToAction("IndexOffreEmploi");
-
+            }
+            return View(model);
         }
-
-
 
         // ----------------------------
         // Formulaire de modification d'une offre
         // ----------------------------
-        public async Task<IActionResult> EditOffreEmploi(int id)
+        public async Task<IActionResult> Edit(int id)
         {
             var offre = await _context.OffresEmploi.FindAsync(id);
             if (offre == null)
             {
                 return NotFound();
             }
-
-            var model = new OffreEmploiViewModel
-            {
-                Id = offre.Id,
-                Titre = offre.Titre,
-                Description = offre.Description,
-                Entreprise = offre.Entreprise,
-                DatePublication = offre.DatePublication,
-                Lieu = offre.Lieu,
-                ImageUrl = offre.ImageUrl
-            };
-
-            return View(model);
+            return View(offre);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditOffreEmploi(OffreEmploiViewModel model)
+        public async Task<IActionResult> Edit(OffreEmploi model)
         {
-            
+            if (ModelState.IsValid)
+            {
                 var offre = await _context.OffresEmploi.FindAsync(model.Id);
                 if (offre == null)
                 {
                     return NotFound();
                 }
 
+                // Mise à jour des champs
                 offre.Titre = model.Titre;
                 offre.Description = model.Description;
                 offre.Entreprise = model.Entreprise;
                 offre.DatePublication = model.DatePublication;
                 offre.Lieu = model.Lieu;
-
-                // Gérer l'image si elle a été changée
-                if (model.FichierImage != null && model.FichierImage.Length > 0)
-                {
-                    var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/offres-emploi");
-                    if (!Directory.Exists(folderPath))
-                    {
-                        Directory.CreateDirectory(folderPath);
-                    }
-
-                    var filePath = Path.Combine(folderPath, model.FichierImage.FileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await model.FichierImage.CopyToAsync(stream);
-                    }
-
-                    offre.ImageUrl = model.FichierImage.FileName; // Mettre à jour le chemin de l'image
-                }
+                offre.MinimumQualifications = model.MinimumQualifications;
+                offre.PreferredQualifications = model.PreferredQualifications;
 
                 _context.OffresEmploi.Update(offre);
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction("IndexOffreEmploi");
             }
+            return View(model);
+        }
 
-
-        public async Task<IActionResult> DeleteOffreEmploi(int id)
+        // ----------------------------
+        // Suppression d'une offre
+        // ----------------------------
+        public async Task<IActionResult> Delete(int id)
         {
             var offreEmploi = await _context.OffresEmploi.FindAsync(id);
             if (offreEmploi != null)
             {
-                // Supprimer l'image associée si elle existe
-                if (!string.IsNullOrEmpty(offreEmploi.ImageUrl))
-                {
-                    string imagePath = Path.Combine(_webHostEnvironment.WebRootPath, offreEmploi.ImageUrl.TrimStart('/'));
-                    if (System.IO.File.Exists(imagePath))
-                    {
-                        System.IO.File.Delete(imagePath);
-                    }
-                }
-
                 _context.OffresEmploi.Remove(offreEmploi);
                 await _context.SaveChangesAsync();
             }
-
-            return RedirectToAction(nameof(IndexOffreEmploi)); // Redirection vers l'index
+            return RedirectToAction(nameof(IndexOffreEmploi));
         }
-        [HttpPost]
-        public async Task<IActionResult> Apply(Candidature candidature, IFormFile CvFilePath)
+        public async Task<IActionResult> Apply(int id)
         {
-            if (ModelState.IsValid)
+            var offre = await _context.OffresEmploi.FindAsync(id);
+            return View(offre);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Soumettre(int id, string prenom, string nom, string email, IFormFile cv, string message)
+        {
+
+            // Process the uploaded CV file
+            string cvPath = null;
+            if (cv != null && cv.Length > 0)
             {
-                if (CvFilePath != null && CvFilePath.Length > 0)
+                // Define the file path where CV will be saved
+                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads/cvs");
+                Directory.CreateDirectory(uploadsFolder); // Ensure the folder exists
+                cvPath = Path.Combine(uploadsFolder, $"{Guid.NewGuid()}_{cv.FileName}");
+
+                using (var fileStream = new FileStream(cvPath, FileMode.Create))
                 {
-                    // Définir le chemin d'upload
-                    var uploads = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
-                    if (!Directory.Exists(uploads))
-                    {
-                        Directory.CreateDirectory(uploads); // Créer le dossier s'il n'existe pas
-                    }
-
-                    // Générer un nom unique pour éviter les conflits
-                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + CvFilePath.FileName;
-                    var filePath = Path.Combine(uploads, uniqueFileName);
-
-                    // Enregistrer le fichier sur le serveur
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await CvFilePath.CopyToAsync(stream);
-                    }
-
-                    // Stocker le chemin relatif dans la propriété CvFilePath
-                    candidature.CvFilePath = $"/uploads/{uniqueFileName}";
+                    await cv.CopyToAsync(fileStream);
                 }
-
-                // Ajouter la candidature à la base de données
-                _context.Candidatures.Add(candidature);
-                await _context.SaveChangesAsync();
-
-                // Message de succès
-                TempData["SuccessMessage"] = "Votre candidature a été envoyée avec succès.";
-                return RedirectToAction("Offre");
             }
 
-            // Message d'erreur
-            TempData["ErrorMessage"] = "Une erreur s'est produite. Veuillez réessayer.";
-            return RedirectToAction("Offre");
+            // Create a new Candidature object
+            var candidature = new Candidature
+            {
+                OffreId = id,
+                Prenom = prenom,
+                Nom = nom,
+                Email = email,
+                CvFilePath = cvPath,
+                Message = message,
+                DateCandidature = DateTime.Now
+            };
+
+            // Save the Candidature object to the database
+            _context.Candidatures.Add(candidature);
+            await _context.SaveChangesAsync();
+
+            // Redirect to a confirmation page
+           
+            TempData["Message"] = "Votre candidature a été soumise avec succès.";
+            var referer = Request.Headers["Referer"].ToString();
+            return Redirect(referer);
         }
-
-
     }
-
 }

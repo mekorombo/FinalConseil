@@ -1,60 +1,49 @@
-﻿@model IEnumerable<DashboardConseil.ViewModel.OffreEmploiViewModel>
+﻿@model IEnumerable<DashboardConseil.Models.OffreEmploi>
 
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml"; // Chemin absolu vers le fichier _Layout.cshtml
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewData["Title"] = "Liste des offres d'emploi";
 }
 
-<h1 class="mb-4 text-dark">Liste des offres d'emploi</h1>
+<h1 class="mb-4 text-dark text-center">Liste des offres d'emploi</h1>
 
-<a class="btn bg-gradient-primary mb-3" asp-action="CreateOffreEmploi">
+<a class="btn bg-gradient-primary mb-4" asp-action="CreateOffreEmploi">
     <i class="material-symbols-rounded">add</i> Créer une nouvelle offre
 </a>
-<div class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
-    <div class="card-body px-0 pb-2 ">
-        <!-- Version tableau pour grands écrans -->
-        <table class="table">
-            <thead class="bg-gradient-dark text-white">
-                <tr>
-                    <th class="text-uppercase text-center text-xs font-weight-bold">Image</th>
-                    <th class="text-uppercase text-xs font-weight-bold">Titre</th>
-                    <th class="text-uppercase text-xs font-weight-bold">Description</th>
-                    <th class="text-uppercase text-xs font-weight-bold">Date de publication</th>
-                    <th class="text-uppercase text-xs font-weight-bold">Lieu</th>
-                    <th class="text-uppercase text-xs font-weight-bold">Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var offre in Model)
-                {
-                    <tr>
-                        <td class="text-center">
-                            @if (!string.IsNullOrEmpty(offre.ImageUrl))
-                            {
-                                <img src="@Url.Content("~/images/offres-emploi/" + offre.ImageUrl)" alt="Image" class="avatar avatar-sm rounded-circle shadow" />
-                            }
-                            else
-                            {
-                                <span class="badge bg-gradient-secondary">Pas d'image</span>
-                            }
-                        </td>
-                        <td>@offre.Titre</td>
-                        <td class="text-truncate" style="max-width: 200px;">@offre.Description</td>
-                        <td>@offre.DatePublication.ToString("dd/MM/yyyy")</td>
-                        <td>@offre.Lieu</td>
-                        <td>
-                            <a asp-action="EditOffreEmploi" asp-route-id="@offre.Id" class="btn btn-sm bg-gradient-warning text-white">
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var offre in Model)
+        {
+            <div class="col">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">@offre.Titre</h5>
+                        <p class="card-text text-muted small">
+                            <strong>Entreprise :</strong> @offre.Entreprise <br />
+                            <strong>Lieu :</strong> @offre.Lieu <br />
+                            <strong>Date de publication :</strong> @offre.DatePublication.ToString("dd/MM/yyyy") <br />
+                        </p>
+                        <p class="card-text text-truncate" title="@offre.Description">
+                            @offre.Description
+                        </p>
+                        <p class="card-text text-truncate small text-secondary" title="@offre.MinimumQualifications">
+                            <strong>Qualifications minimales :</strong> @offre.MinimumQualifications
+                        </p>
+                        <p class="card-text text-truncate small text-secondary" title="@offre.PreferredQualifications">
+                            <strong>Qualifications minimales :</strong> @offre.PreferredQualifications
+                        </p>
+                        <div class="d-flex justify-content-between mt-3">
+                            <a asp-action="Edit" asp-route-id="@offre.Id" class="btn btn-sm btn-warning">
                                 <i class="material-symbols-rounded">edit</i> Modifier
                             </a>
-                            <a asp-action="DeleteOffreEmploi" asp-route-id="@offre.Id" class="btn btn-sm bg-gradient-danger text-white">
+                            <a asp-action="Delete" asp-route-id="@offre.Id" class="btn btn-sm btn-danger">
                                 <i class="material-symbols-rounded">delete</i> Supprimer
                             </a>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
     </div>
 </div>
-
-

@@ -1,4 +1,4 @@
-﻿@model DashboardConseil.ViewModel.OffreEmploiViewModel
+﻿@model DashboardConseil.Models.OffreEmploi
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,7 +8,7 @@
 <h1 class="mb-4 text-center text-dark">Créer une nouvelle offre d'emploi</h1>
 
 <div class="card shadow-sm p-5 bg-light rounded-lg border-0">
-    <form asp-action="CreateOffreEmploi" method="post" enctype="multipart/form-data">
+    <form asp-action="CreateOffreEmploi" method="post">
         <!-- Titre -->
         <div class="form-group mb-4">
             <label asp-for="Titre" class="form-label text-dark fw-semibold">
@@ -58,20 +58,24 @@
             <span asp-validation-for="Lieu" class="text-danger small"></span>
         </div>
 
-        <!-- Fichier Image -->
+        <!-- Qualifications minimales -->
         <div class="form-group mb-4">
-            <label for="FichierImage" class="form-label text-dark fw-semibold">
-                <i class="material-symbols-rounded">photo</i> Image associée
+            <label asp-for="MinimumQualifications" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">school</i> Qualifications minimales
             </label>
-            <div class="custom-file">
-                <input asp-for="FichierImage" type="file" class="form-control-file shadow-sm border-primary" id="FichierImage" />
-                <span asp-validation-for="FichierImage" class="text-danger small"></span>
-            </div>
+            <textarea asp-for="MinimumQualifications" class="form-control shadow-sm border-primary" rows="3"
+                      placeholder="Liste des qualifications minimales requises"></textarea>
+            <span asp-validation-for="MinimumQualifications" class="text-danger small"></span>
+        </div>
 
-            <!-- Afficher un aperçu de l'image téléchargée -->
-            <div id="imagePreview" class="mt-3" style="display: none;">
-                <img src="" alt="Aperçu de l'image" class="img-fluid" />
-            </div>
+        <!-- Qualifications préférées -->
+        <div class="form-group mb-4">
+            <label asp-for="PreferredQualifications" class="form-label text-dark fw-semibold">
+                <i class="material-symbols-rounded">star</i> Qualifications préférées
+            </label>
+            <textarea asp-for="PreferredQualifications" class="form-control shadow-sm border-primary" rows="3"
+                      placeholder="Liste des qualifications préférées"></textarea>
+            <span asp-validation-for="PreferredQualifications" class="text-danger small"></span>
         </div>
 
         <!-- Boutons d'action -->
@@ -87,17 +91,5 @@
 </div>
 
 @section Scripts {
-    <script>
-        document.getElementById('FichierImage').addEventListener('change', function (event) {
-            var reader = new FileReader();
-            reader.onload = function () {
-                var preview = document.getElementById('imagePreview');
-                var image = preview.querySelector('img');
-                image.src = reader.result;
-                preview.style.display = 'block';
-            };
-            reader.readAsDataURL(event.target.files[0]);
-        });
-    </script>
     <partial name="_ValidationScriptsPartial" />
 }
