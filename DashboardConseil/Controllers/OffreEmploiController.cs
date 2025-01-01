@@ -175,6 +175,49 @@ namespace DashboardConseil.Controllers
 
             return RedirectToAction(nameof(IndexOffreEmploi)); // Redirection vers l'index
         }
+        [HttpPost]
+        public async Task<IActionResult> Apply(Candidature candidature, IFormFile CvFilePath)
+        {
+            if (ModelState.IsValid)
+            {
+                if (CvFilePath != null && CvFilePath.Length > 0)
+                {
+                    // Définir le chemin d'upload
+                    var uploads = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+                    if (!Directory.Exists(uploads))
+                    {
+                        Directory.CreateDirectory(uploads); // Créer le dossier s'il n'existe pas
+                    }
+
+                    // Générer un nom unique pour éviter les conflits
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + CvFilePath.FileName;
+                    var filePath = Path.Combine(uploads, uniqueFileName);
+
+                    // Enregistrer le fichier sur le serveur
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await CvFilePath.CopyToAsync(stream);
+                    }
+
+                    // Stocker le chemin relatif dans la propriété CvFilePath
+                    candidature.CvFilePath = $"/uploads/{uniqueFileName}";
+                }
+
+                // Ajouter la candidature à la base de données
+                _context.Candidatures.Add(candidature);
+                await _context.SaveChangesAsync();
+
+                // Message de succès
+                TempData["SuccessMessage"] = "Votre candidature a été envoyée avec succès.";
+                return RedirectToAction("Offre");
+            }
+
+            // Message d'erreur
+            TempData["ErrorMessage"] = "Une erreur s'est produite. Veuillez réessayer.";
+            return RedirectToAction("Offre");
+        }
+
+
     }
 
 }

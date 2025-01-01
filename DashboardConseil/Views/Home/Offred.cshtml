@@ -1,0 +1,102 @@
+﻿@model (DashboardConseil.Models.OffreEmploi, IEnumerable<DashboardConseil.Models.OffreEmploi>)
+
+
+@{
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+@await Html.PartialAsync("~/Views/Shared/_NavLayout.cshtml")
+<style>
+    .job-listing {
+        height: 60vh; /* Hauteur fixe (ajustez selon vos besoins) */
+        overflow-y: auto; /* Ajoute le défilement vertical */
+        border: 1px solid #e0e0e0; /* Optionnel : ajoute une bordure pour démarquer */
+        padding: 15px; /* Ajoute un espacement interne */
+        background-color: #f8f9fa; /* Fond léger pour démarquer la section */
+    }
+
+    .job-item {
+        padding: 15px;
+        border-bottom: 1px solid #ddd; /* Ligne pour séparer les items */
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .job-item:hover {
+            background-color: #e9ecef;
+        }
+
+        .job-item.active {
+            background-color: #e9ecef;
+            font-weight: bold;
+        }
+</style>
+<section class="page-title" style="background-image: url(images/Website/3.jpg)">
+    <div class="auto-container">
+        <h1>Offres d'emploi </h1>
+        <ul class="page-breadcrumb">
+            <li><a href="/">Accueil</a></li>
+            <li>Contactez Nous</li>
+        </ul>
+    </div>
+</section>
+<div class="">
+    <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-4 job-listing">
+                @foreach (var offre in Model.Item2)
+                {
+                    <div class="job-item">
+                        @offre.Titre
+                        <br>
+                        <a class="text-muted" href="/OffreDetail/@offre.Id">@offre.Entreprise à @offre.Lieu</a>
+                    </div>
+                }
+            </div>
+            <div class="col-md-8 job-details">
+                <h4>@Model.Item1.Titre</h4>
+                <div class="text-muted mb-3">
+                    <i class="bi bi-building me-2"></i> @Model.Item1.Entreprise
+                    <i class="bi bi-geo-alt ms-4 me-2"></i> @Model.Item1.Lieu
+                </div>
+                <button class="btn btn-primary mb-4">Apply</button>
+                <div class="note-box">
+                    <strong>Note:</strong> By applying to this position you will have an opportunity to share your preferred working location from the following: Mumbai, Maharashtra, India; Gurgaon, Haryana, India.
+                </div>
+                <h5>Minimum qualifications</h5>
+                <ul>
+                    @{
+                        // Remplacer "et" par une virgule pour uniformiser les séparateurs
+                        var normalizedText = Model.Item1.MinimumQualifications.Replace("et", ",");
+
+                        // Diviser la phrase en éléments en utilisant la virgule comme séparateur
+                        var qualifications = normalizedText.Split(',');
+                    }
+
+                    @foreach (var qualification in qualifications)
+                    {
+                        <li>@qualification.Trim()</li> <!-- Trim pour supprimer les espaces superflus -->
+                    }
+                </ul>
+                <h5>Preferred qualifications</h5>
+                <ul>
+                    @{
+                        // Remplacer "et" par une virgule pour uniformiser les séparateurs
+                        var normalizedTextt = Model.Item1.MinimumQualifications.Replace("et", ",");
+
+                        // Diviser la phrase en éléments en utilisant la virgule comme séparateur
+                        var qualificationss = normalizedTextt.Split(',');
+                    }
+
+                    @foreach (var qualificationt in qualificationss)
+                    {
+                        <li>@qualificationt.Trim()</li> <!-- Trim pour supprimer les espaces superflus -->
+                    }
+                </ul>
+                <h5>About the job</h5>
+                <p>
+                    @Model.Item1.Description
+                </p>
+            </div>
+        </div>
+        <div>
+        </div>

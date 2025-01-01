@@ -32,15 +32,16 @@ namespace DashboardConseil.Models
         [Display(Name = "Lieu")]
         public string Lieu { get; set; } // Localisation de l'offre
 
-        //[Range(0, double.MaxValue)]
-        //[Display(Name = "Salaire proposé (optionnel)")]
-        //public decimal? Salaire { get; set; } // Salaire proposé (optionnel)
-
-        //[StringLength(200)]
-        //[Display(Name = "URL de l'offre (optionnel)")]
-        //public string Url { get; set; } // Lien vers l'offre (optionnel)
         [StringLength(250)]
         [Display(Name = "Image (URL ou chemin du fichier)")]
         public string ImageUrl { get; set; } // Nouveau champ pour l'image
+        [Required]
+        [StringLength(500)]
+        [Display(Name = "Qualifications minimales")]
+        public string MinimumQualifications { get; set; } // Qualifications minimales
+
+        [StringLength(500)]
+        [Display(Name = "Qualifications préférées")]
+        public string PreferredQualifications { get; set; } // Qualifications préférées
     }
 }

@@ -6006,8 +6006,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a40gvera57</Fingerprint>
-      <Integrity>mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4=</Integrity>
+      <Fingerprint>1ecbqkhyei</Fingerprint>
+      <Integrity>hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -11250,6 +11250,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\LogoCNav_165x60555555.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\LogoDeNavBar (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DashboardConseil</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DashboardConseil</BasePath>
+      <RelativePath>images/Website/LogoDeNavBar (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9l7mtbkkdf</Fingerprint>
+      <Integrity>E6fQxjJbjYz3dfzJqoE3QU5JyKotGjI+OigImczOwMA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\LogoDeNavBar (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\LogoDeNavBar.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DashboardConseil</SourceId>
@@ -11262,8 +11280,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>znqidbhz8k</Fingerprint>
-      <Integrity>gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=</Integrity>
+      <Fingerprint>6u7lliw648</Fingerprint>
+      <Integrity>7lckLlbwRsd4G/RkWo0GmtQNXpctmwe5gddOdHttfvw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\LogoDeNavBar.png'))</OriginalItemSpec>
@@ -11555,6 +11573,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\waves-shape.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\XX.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DashboardConseil</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DashboardConseil</BasePath>
+      <RelativePath>images/Website/XX.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>znqidbhz8k</Fingerprint>
+      <Integrity>gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\XX.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Website\XXXXXXX.png'))">
       <SourceType>Package</SourceType>

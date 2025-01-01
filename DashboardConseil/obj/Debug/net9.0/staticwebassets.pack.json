@@ -1481,8 +1481,16 @@
       "PackagePath": "staticwebassets\\images\\Website\\LogoCNav_165x60555555.png"
     },
     {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar (1).png",
+      "PackagePath": "staticwebassets\\images\\Website\\LogoDeNavBar (1).png"
+    },
+    {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
       "PackagePath": "staticwebassets\\images\\Website\\LogoDeNavBar.png"
+    },
+    {
+      "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XX.png",
+      "PackagePath": "staticwebassets\\images\\Website\\XX.png"
     },
     {
       "Id": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XXXXXXX.png",

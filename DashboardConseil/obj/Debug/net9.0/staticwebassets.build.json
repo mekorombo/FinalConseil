@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PUl5x6xPkkRGVsqdbcq95jZSisBbjFYaTV5uqFT24Sc=",
+  "Hash": "vOfSNU4gKtOp9c9HLIi6PeRL67984WipHcaCN9UIBjo=",
   "Source": "DashboardConseil",
   "BasePath": "_content/DashboardConseil",
   "Mode": "Default",
@@ -1592,12 +1592,12 @@
       "OriginalItemSpec": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg"
     },
     {
-      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-a40gvera57.gz",
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-1ecbqkhyei.gz",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DashboardConseil",
-      "RelativePath": "css/style#[.{fingerprint=a40gvera57}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=1ecbqkhyei}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1606,8 +1606,8 @@
       "RelatedAsset": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "luuxcpd71v",
-      "Integrity": "bTqKD3ThfkJBN11AbtnMxxZbZE4xzklKte/BpeKJIsE=",
+      "Fingerprint": "4r2dknwybp",
+      "Integrity": "0OBrTsATf4n892qIor2MR0vZhiurMTElKFnUnBndndA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\css\\style.css"
@@ -12904,8 +12904,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a40gvera57",
-      "Integrity": "mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4=",
+      "Fingerprint": "1ecbqkhyei",
+      "Integrity": "hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -19001,6 +19001,27 @@
       "OriginalItemSpec": "wwwroot\\images\\Website\\LogoCNav_165x60555555.png"
     },
     {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar (1).png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/Website/LogoDeNavBar (1)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9l7mtbkkdf",
+      "Integrity": "E6fQxjJbjYz3dfzJqoE3QU5JyKotGjI+OigImczOwMA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Website\\LogoDeNavBar (1).png"
+    },
+    {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
       "SourceId": "DashboardConseil",
       "SourceType": "Discovered",
@@ -19015,8 +19036,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "znqidbhz8k",
-      "Integrity": "gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=",
+      "Fingerprint": "6u7lliw648",
+      "Integrity": "7lckLlbwRsd4G/RkWo0GmtQNXpctmwe5gddOdHttfvw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Website\\LogoDeNavBar.png"
@@ -19356,6 +19377,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Website\\waves-shape.png"
+    },
+    {
+      "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XX.png",
+      "SourceId": "DashboardConseil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\",
+      "BasePath": "_content/DashboardConseil",
+      "RelativePath": "images/Website/XX#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "znqidbhz8k",
+      "Integrity": "gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Website\\XX.png"
     },
     {
       "Identity": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XXXXXXX.png",
@@ -61253,13 +61295,13 @@
       ]
     },
     {
-      "Route": "css/style.a40gvera57.css",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-a40gvera57.gz",
+      "Route": "css/style.1ecbqkhyei.css",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-1ecbqkhyei.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000028215908"
+          "Quality": "0.000028217500"
         }
       ],
       "ResponseHeaders": [
@@ -61269,15 +61311,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35440"
+          "Value": "35438"
         },
         {
           "Name": "ETag",
-          "Value": "\"bTqKD3ThfkJBN11AbtnMxxZbZE4xzklKte/BpeKJIsE=\""
+          "Value": "\"0OBrTsATf4n892qIor2MR0vZhiurMTElKFnUnBndndA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:48:22 GMT"
+          "Value": "Sun, 29 Dec 2024 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -61297,13 +61339,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4=\""
+          "Value": "W/\"hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a40gvera57"
+          "Value": "1ecbqkhyei"
         },
         {
           "Name": "label",
@@ -61311,12 +61353,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4="
+          "Value": "sha256-hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM="
         }
       ]
     },
     {
-      "Route": "css/style.a40gvera57.css",
+      "Route": "css/style.1ecbqkhyei.css",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -61326,7 +61368,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "331167"
+          "Value": "331164"
         },
         {
           "Name": "Content-Type",
@@ -61334,11 +61376,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4=\""
+          "Value": "\"hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:48:22 GMT"
+          "Value": "Sun, 29 Dec 2024 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -61348,7 +61390,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a40gvera57"
+          "Value": "1ecbqkhyei"
         },
         {
           "Name": "label",
@@ -61356,13 +61398,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4="
+          "Value": "sha256-hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM="
         }
       ]
     },
     {
-      "Route": "css/style.a40gvera57.css.gz",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-a40gvera57.gz",
+      "Route": "css/style.1ecbqkhyei.css.gz",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-1ecbqkhyei.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -61371,7 +61413,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35440"
+          "Value": "35438"
         },
         {
           "Name": "Content-Type",
@@ -61379,11 +61421,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bTqKD3ThfkJBN11AbtnMxxZbZE4xzklKte/BpeKJIsE=\""
+          "Value": "\"0OBrTsATf4n892qIor2MR0vZhiurMTElKFnUnBndndA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:48:22 GMT"
+          "Value": "Sun, 29 Dec 2024 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -61401,7 +61443,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a40gvera57"
+          "Value": "1ecbqkhyei"
         },
         {
           "Name": "label",
@@ -61409,18 +61451,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bTqKD3ThfkJBN11AbtnMxxZbZE4xzklKte/BpeKJIsE="
+          "Value": "sha256-0OBrTsATf4n892qIor2MR0vZhiurMTElKFnUnBndndA="
         }
       ]
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-a40gvera57.gz",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-1ecbqkhyei.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000028215908"
+          "Quality": "0.000028217500"
         }
       ],
       "ResponseHeaders": [
@@ -61430,15 +61472,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35440"
+          "Value": "35438"
         },
         {
           "Name": "ETag",
-          "Value": "\"bTqKD3ThfkJBN11AbtnMxxZbZE4xzklKte/BpeKJIsE=\""
+          "Value": "\"0OBrTsATf4n892qIor2MR0vZhiurMTElKFnUnBndndA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:48:22 GMT"
+          "Value": "Sun, 29 Dec 2024 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -61458,13 +61500,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4=\""
+          "Value": "W/\"hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4="
+          "Value": "sha256-hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM="
         }
       ]
     },
@@ -61479,7 +61521,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "331167"
+          "Value": "331164"
         },
         {
           "Name": "Content-Type",
@@ -61487,11 +61529,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4=\""
+          "Value": "\"hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:48:22 GMT"
+          "Value": "Sun, 29 Dec 2024 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -61501,13 +61543,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mgvB2tqy8MxVKusSmUmyg4Nbp0AB4n/BHe34D6QLkz4="
+          "Value": "sha256-hzJuxIfaxw29T98hdIoDF2h0feQPrq0ABvD+kt4LQkM="
         }
       ]
     },
     {
       "Route": "css/style.css.gz",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-a40gvera57.gz",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\obj\\Debug\\net9.0\\compressed\\1y0uognhdg-1ecbqkhyei.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -61516,7 +61558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35440"
+          "Value": "35438"
         },
         {
           "Name": "Content-Type",
@@ -61524,11 +61566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bTqKD3ThfkJBN11AbtnMxxZbZE4xzklKte/BpeKJIsE=\""
+          "Value": "\"0OBrTsATf4n892qIor2MR0vZhiurMTElKFnUnBndndA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:48:22 GMT"
+          "Value": "Sun, 29 Dec 2024 15:37:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -61546,7 +61588,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bTqKD3ThfkJBN11AbtnMxxZbZE4xzklKte/BpeKJIsE="
+          "Value": "sha256-0OBrTsATf4n892qIor2MR0vZhiurMTElKFnUnBndndA="
         }
       ]
     },
@@ -96007,6 +96049,133 @@
       ]
     },
     {
+      "Route": "images/Website/LogoDeNavBar (1).9l7mtbkkdf.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6fQxjJbjYz3dfzJqoE3QU5JyKotGjI+OigImczOwMA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 15:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9l7mtbkkdf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Website/LogoDeNavBar (1).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6fQxjJbjYz3dfzJqoE3QU5JyKotGjI+OigImczOwMA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/LogoDeNavBar (1).png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6fQxjJbjYz3dfzJqoE3QU5JyKotGjI+OigImczOwMA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 15:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6fQxjJbjYz3dfzJqoE3QU5JyKotGjI+OigImczOwMA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/LogoDeNavBar.6u7lliw648.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7lckLlbwRsd4G/RkWo0GmtQNXpctmwe5gddOdHttfvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 15:32:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6u7lliw648"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Website/LogoDeNavBar.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lckLlbwRsd4G/RkWo0GmtQNXpctmwe5gddOdHttfvw="
+        }
+      ]
+    },
+    {
       "Route": "images/Website/LogoDeNavBar.png",
       "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
       "Selectors": [],
@@ -96017,7 +96186,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6180"
+          "Value": "2994"
         },
         {
           "Name": "Content-Type",
@@ -96025,11 +96194,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
+          "Value": "\"7lckLlbwRsd4G/RkWo0GmtQNXpctmwe5gddOdHttfvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
+          "Value": "Sun, 29 Dec 2024 15:32:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -96039,52 +96208,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/Website/LogoDeNavBar.znqidbhz8k.png",
-      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\LogoDeNavBar.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6180"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "znqidbhz8k"
-        },
-        {
-          "Name": "label",
-          "Value": "images/Website/LogoDeNavBar.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
+          "Value": "sha256-7lckLlbwRsd4G/RkWo0GmtQNXpctmwe5gddOdHttfvw="
         }
       ]
     },
@@ -97397,6 +97521,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-F2SCnXzwB3xuKiGNzawbSOiCwpvlDpeZu9NjFaAw5q0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/XX.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XX.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Website/XX.znqidbhz8k.png",
+      "AssetFile": "C:\\Users\\maelf\\OneDrive\\Bureau\\FinalConseil\\DashboardConseil\\wwwroot\\images\\Website\\XX.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 21:59:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "znqidbhz8k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Website/XX.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZ9V5qGWn7mF6ZwBy/eAp3stvb4BUd9lMtER3qS9cJQ="
         }
       ]
     },

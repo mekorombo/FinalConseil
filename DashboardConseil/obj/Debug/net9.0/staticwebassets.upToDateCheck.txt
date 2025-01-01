@@ -773,6 +773,7 @@ wwwroot\images\Website\image-2.jpg
 wwwroot\images\Website\LogoC.png
 wwwroot\images\Website\LogoCNav.png
 wwwroot\images\Website\LogoCNav_165x60555555.png
+wwwroot\images\Website\LogoDeNavBar (1).png
 wwwroot\images\Website\LogoDeNavBar.png
 wwwroot\images\Website\news-1.jpg
 wwwroot\images\Website\news-2.jpg
@@ -790,6 +791,7 @@ wwwroot\images\Website\testimonial-thumb-2.jpg
 wwwroot\images\Website\testimonial-thumb-3.jpg
 wwwroot\images\Website\testimonial-thumb-4.jpg
 wwwroot\images\Website\waves-shape.png
+wwwroot\images\Website\XX.png
 wwwroot\images\Website\XXXXXXX.png
 wwwroot\js\appear.js
 wwwroot\js\bootstrap.min.js

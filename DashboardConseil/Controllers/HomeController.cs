@@ -23,9 +23,9 @@ namespace DashboardConseil.Controllers
         {
 
             var topServices = await _context.Services
-    .OrderByDescending(s => s.Id) // Trier par ID décroissant
-    .Take(3) // Récupérer les 3 premiers
-    .ToListAsync();
+            .OrderByDescending(s => s.Id) // Trier par ID décroissant
+            .Take(3) // Récupérer les 3 premiers
+            .ToListAsync();
 
             return View(topServices); // Maps to Team.cshtml
         }
@@ -45,10 +45,10 @@ namespace DashboardConseil.Controllers
             return View(); // Maps to Team.cshtml
         }
 
-        public IActionResult TeamDetaille()
-        {
-            return View(); // Maps to TeamDetaille.cshtml
-        }
+        //public IActionResult TeamDetaille()
+        //{
+        //    return View(); // Maps to TeamDetaille.cshtml
+        //}
         public async Task<IActionResult> Service()
         {
             var services = await _context.Services.ToListAsync();
@@ -72,7 +72,44 @@ namespace DashboardConseil.Controllers
         [Authorize]
         public IActionResult Dashboard()
         {
-            return View();
+            int currentYear = DateTime.Now.Year;
+
+            // Créer une liste de tous les mois (1 à 12)
+            var months = Enumerable.Range(1, 12);
+
+            // Utiliser LINQ pour compter les abonnements par mois
+            var monthlySubscriptions = months
+        .GroupJoin(
+            _context.NewsletterSubscriptions
+                .Where(ns => ns.SubscribedOn.Year == currentYear), // Filtrer par l'année actuelle
+            month => month,                                     // Clé externe : Mois de la liste
+            ns => ns.SubscribedOn.Month,                       // Clé interne : Mois des abonnements
+            (month, subscriptions) => new
+            {
+                Month = month,
+                SubscriptionCount = subscriptions.Count()
+            }
+        )
+        .OrderBy(result => result.Month) // Trier par mois
+        .ToList();
+
+            var monthlyOffers = months
+                        .GroupJoin(
+                            _context.OffresEmploi
+                                .Where(o => o.DatePublication.Year == currentYear), // Filtrer par année
+                            month => month,                                        // Mois de la liste
+                            o => o.DatePublication.Month,                         // Mois des offres
+                            (month, offers) => new
+                            {
+                                Month = month,
+                                OfferCount = offers.Count()
+                            }
+                        )
+                        .OrderBy(result => result.Month)
+                        .ToList();
+
+            // Retourner les données à la vue sous forme de tuple
+            return View((monthlySubscriptions, monthlyOffers));
         }
 
         public IActionResult SignIn()
@@ -88,6 +125,13 @@ namespace DashboardConseil.Controllers
             return View();
         }
 
+        
+        public async Task<IActionResult> Offre()
+        {
+            var offres = await _context.OffresEmploi.ToListAsync();
+            return View(offres);
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -95,5 +139,6 @@ namespace DashboardConseil.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }

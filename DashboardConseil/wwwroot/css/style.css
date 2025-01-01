@@ -959,7 +959,7 @@ img{
 	color:#80c32f;
 }
 
-.preloader{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-repeat:no-repeat; background-image:url(/images/Website/LogoCNav_165x60.png); background-size:100px; }
+.preloader{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-repeat:no-repeat; background-image:url(/images/Website/LogoDeNavBar.png); background-size:100px; }
 
 img{
 	display:inline-block;

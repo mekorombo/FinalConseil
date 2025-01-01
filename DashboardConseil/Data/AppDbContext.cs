@@ -12,8 +12,7 @@ namespace DashboardConseil.Data
         public DbSet<NewsletterSubscription> NewsletterSubscriptions { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Service> Services { get; set; }
-
-
+        public DbSet<Candidature> Candidatures { get; set; }
 
     }
 }
